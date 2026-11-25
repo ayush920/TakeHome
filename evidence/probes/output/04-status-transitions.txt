@@ -1,0 +1,14 @@
+# Claim status state machine, exercised through the BFF as ADMIN
+
+SUBMITTED   -> APPROVED  (illegal)               -> HTTP 500  {"timestamp":"2026-11-24T21:44:50.160Z","status":500,"error":"Internal Server Error","path
+SUBMITTED   -> CLOSED    (illegal)               -> HTTP 500  {"timestamp":"2026-11-24T21:44:50.325Z","status":500,"error":"Internal Server Error","path
+SUBMITTED   -> UNDER_REVIEW                      -> HTTP 200  UNDER_REVIEW
+UNDER_REVIEW-> SUBMITTED (backwards, allowed)    -> HTTP 200  SUBMITTED
+SUBMITTED   -> UNDER_REVIEW                      -> HTTP 200  UNDER_REVIEW
+UNDER_REVIEW-> APPROVED                          -> HTTP 200  APPROVED
+APPROVED    -> REJECTED  (illegal)               -> HTTP 500  {"timestamp":"2026-11-24T21:44:50.845Z","status":500,"error":"Internal Server Error","path
+APPROVED    -> CLOSED                            -> HTTP 200  CLOSED
+CLOSED      -> SUBMITTED (illegal)               -> HTTP 500  {"timestamp":"2026-11-24T21:44:51.068Z","status":500,"error":"Internal Server Error","path
+
+claims-service direct: SUBMITTED -> APPROVED on a fresh claim (illegal)
+    -> HTTP 500  {"timestamp":"2026-11-24T21:44:51.236Z","status":500,"error":"Internal Server Error","path":"/api/admin/claims/975e676a-fb94-49ed-b178-5185ac2151d9/status"}

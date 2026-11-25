@@ -1,0 +1,6 @@
+# 40 concurrent claim submissions via the BFF from two different users
+
+requests=40  created=40  non-201=0
+claims stored under the WRONG owner (userId != submitting session): 2
+   submitted by admin (9b87efb9-f77b-44d4-b878-4854c633f432) but stored for b712e549-ffbb-427d-9fb3-c8e99908be71
+   submitted by admin (9b87efb9-f77b-44d4-b878-4854c633f432) but stored for b712e549-ffbb-427d-9fb3-c8e99908be71

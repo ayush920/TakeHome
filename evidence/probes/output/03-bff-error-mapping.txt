@@ -1,0 +1,22 @@
+# Error mapping through the BFF (what a client actually sees)
+
+POST valid claim
+    -> HTTP 201  {"claimId":"aab9867c-68c4-47ca-b198-ec9f1912e881","userId":"b712e549-ffbb-427d-9fb3-c8e999
+POST incidentDate in the future (domain rule)
+    -> HTTP 500  {"timestamp":"2026-11-24T21:44:49.317Z","status":500,"error":"Internal Server Error","path":"/api/claims"}
+POST description padded with spaces to >=10 chars
+    -> HTTP 500  {"timestamp":"2026-11-24T21:44:49.498Z","status":500,"error":"Internal Server Error","path":"/api/claims"}
+POST claimAmount 1000000.01 (DTO rule)
+    -> HTTP 400  {"detail":"Validation failed","instance":"/api/claims","status":400,"title":"Validation Error","type":"https://api.demo-app.com/errors/validation-error","errors":["claimAmount: must be less than or equal to 1000000"]}
+GET unknown claim id (expect 404)
+    -> HTTP 500  {"timestamp":"2026-11-24T21:44:49.709Z","status":500,"error":"Internal Server Error","path":"/api/claims/c2359dd7-2c33-459c-961e-773d7e08aaa3"}
+GET another user's claim as admin (expect 403)
+    -> HTTP 500  {"timestamp":"2026-11-24T21:44:49.784Z","status":500,"error":"Internal Server Error","path":"/api/claims/aab9867c-68c4-47ca-b198-ec9f1912e881"}
+POST without CSRF header
+    -> HTTP 403  {"timestamp":"2026-11-24T21:44:49.805Z","status":403,"error":"Forbidden","path":"/api/claims"}
+
+Same defects directly on claims-service (the source of the BFF 500s):
+GET unknown claim
+    -> HTTP 404  {"detail":"Claim not found: 8f15b558-49e8-4511-b9fb-92398c595d82","instance":"/api/claims/8f15b558-49e8-4511-b9fb-92398c595d82","status":404,"title":"Not Found","type":"https://api.demo-app.com/errors/not-found"}
+GET another user's claim
+    -> HTTP 403  {"detail":"User 9b87efb9-f77b-44d4-b878-4854c633f432 is not authorized to access claim aab9867c-68c4-47ca-b198-ec9f1912e881","instance":"/api/claims/aab9867c-68c4-47ca-b198-ec9f1912e881","status":403,"title":"Forbidden","type":"ht

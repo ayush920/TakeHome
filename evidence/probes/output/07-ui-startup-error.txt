@@ -1,0 +1,12 @@
+# UI container on a clean checkout: `docker logs demo-ui` (before running `npm run generate:api`)
+
+Module not found: Can't resolve './generated'
+> 13 | } from './generated';            (src/lib/api/bff-client.ts)
+Module not found: Can't resolve './generated'
+> 132 | } from './generated';           (src/lib/api/bff-client.ts)
+Module not found: Can't resolve '@/src/lib/api/generated/runtime'
+                                        (use-admin-claims-store.ts, use-dashboard-store.ts, use-claims-store.ts, ...)
+
+Context: src/lib/api/generated/ is in code/demo-app-ui/.gitignore, the Dockerfile only runs `npm ci` + `next dev`,
+and start-app.sh never runs `npm run generate:api` (it is wired to `prebuild`, which `next dev` does not trigger).
+Result: every page fails to compile; the login form then falls back to a native GET and puts credentials in the URL.

@@ -1,0 +1,7 @@
+# Dashboard stats: three identical calls inside the 300 s cache TTL
+
+call 1: HTTP 200  cacheHit=False  queryTimeMs=63
+call 2: HTTP 200  cacheHit=False  queryTimeMs=41
+call 3: HTTP 200  cacheHit=False  queryTimeMs=19
+
+Expected: call 1 cacheHit=false, calls 2-3 cacheHit=true.

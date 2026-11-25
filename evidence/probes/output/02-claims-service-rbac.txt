@@ -1,0 +1,18 @@
+# claims-service called directly with a CLAIMANT token
+
+GET /api/admin/claims            (admin-only)
+    -> HTTP 200  [{"claimId":"554979e6-e38b-4606-9b79-1d7857ef6f35","userId":"b712e549-ffbb-427d-9fb3-c8e99908be71","userName":"Test Claimant","userEmail":"claimant@demo.com","incidentDate":"2026-01-10","incidentLocation":"Probe Street 1","descrip
+GET /api/admin/dashboard/stats   (admin-only)
+    -> HTTP 200  {"totalUsers":3,"totalClaims":4,"claimsByStatus":{"CLOSED":1,"SUBMITTED":2,"UNDER_REVIEW":1},"cacheHit":false,"queryTimeMs":82}
+GET /api/users                   (admin-only)
+    -> HTTP 200  [{"userId":"9b87efb9-f77b-44d4-b878-4854c633f432","email":"admin@demo.com","name":"Admin User","role":"ADMIN","createdAt":"2026-11-24T21:42:11.67344Z"},{"userId":"b712e549-ffbb-427d-9fb3-c8e99908be71","email":"claimant@demo.com","name":"Test Claimant","role":"CLAIMANT","createdAt":"2026-11-24T21:42:13.808028Z"},{"userId":"64ff50
+GET /api/users/{adminId}         (no role check)
+    -> HTTP 200  {"userId":"9b87efb9-f77b-44d4-b878-4854c633f432","email":"admin@demo.com","name":"Admin User","role":"ADMIN","createdAt":"2026-11-24T21:42:11.67344Z"}
+POST /api/users role=ADMIN       (no role check)
+    -> HTTP 201  {"userId":"372e0643-a9f2-4a41-85bd-59c5f00c0e6e","email":"qa-probe-372e06@example.com","name":"QA Probe","role":"ADMIN","createdAt":"2026-11-24T21:44:48.747565011Z"}
+
+Same admin endpoints through the BFF with the CLAIMANT cookie session (URL rule applies):
+GET BFF /api/admin/claims
+    -> HTTP 403  
+GET BFF /api/admin/dashboard/stats
+    -> HTTP 403  

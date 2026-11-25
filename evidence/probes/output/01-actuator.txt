@@ -1,0 +1,16 @@
+# Unauthenticated access to Spring Boot Actuator (no token sent)
+
+GET claims-service /actuator/env  ->  HTTP 200, 10,064 bytes
+GET claims-service /actuator/beans  ->  HTTP 200, 263,372 bytes
+GET claims-service /actuator/mappings  ->  HTTP 200, 49,092 bytes
+GET claims-service /actuator/loggers/ROOT  ->  HTTP 200, 50 bytes
+GET claims-service /actuator/metrics  ->  HTTP 200, 3,716 bytes
+GET bff-service /actuator/env  ->  HTTP 200, 10,394 bytes
+GET bff-service /actuator/beans  ->  HTTP 200, 240,800 bytes
+GET bff-service /actuator/mappings  ->  HTTP 200, 50,096 bytes
+GET bff-service /actuator/loggers/ROOT  ->  HTTP 200, 50 bytes
+GET bff-service /actuator/metrics  ->  HTTP 200, 8,115 bytes
+
+Write access (claims-service, no token): change ROOT log level, read it back, then restore it
+POST configuredLevel=TRACE -> HTTP 204; read back configuredLevel=TRACE
+POST configuredLevel=INFO (restore) -> HTTP 204
