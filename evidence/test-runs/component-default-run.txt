@@ -1,0 +1,353 @@
+﻿node.exe : (node:3564) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` 
+instead.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:3564) [DE...oks()` instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+ RUN  v4.0.18 C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui
+
+(node:1156) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19636) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11280) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14168) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection indicator > shows Live once the socket is open
+✅ WebSocket connected successfully
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection 
+indicator > shows Live once the socket is open
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection indicator > shows Reconnecting while it retries after the connection drops
+✅ WebSocket connected successfully
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection 
+indicator > shows Reconnecting while it retries after the connection drops
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection indicator > shows Offline after the retry budget is exhausted
+✅ WebSocket connected successfully
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection 
+indicator > shows Offline after the retry budget is exhausted
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > sees their claim change status without reloading, and is told about it
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_STATUS_CHANGED',
+  claimId: '11111111-aaaa-4aaa-8aaa-111111111111',
+  newStatus: 'APPROVED',
+  timestamp: '2026-02-11T09:00:00Z',
+  correlationId: 'corr-1'
+}
+🔄 Processing WebSocket message: CLAIM_STATUS_CHANGED for claim: 11111111-aaaa-4aaa-8aaa-111111111111 isAdmin: false
+✨ Updating claim status: 11111111-aaaa-4aaa-8aaa-111111111111 → APPROVED
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > sees 
+their claim change status without reloading, and is told about it
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > ignores an update that carries an unknown status instead of corrupting the list
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_STATUS_CHANGED',
+  claimId: '11111111-aaaa-4aaa-8aaa-111111111111',
+  newStatus: 'NOT_A_STATUS',
+  timestamp: '2026-02-11T09:00:00Z',
+  correlationId: 'corr-1'
+}
+🔄 Processing WebSocket message: CLAIM_STATUS_CHANGED for claim: 11111111-aaaa-4aaa-8aaa-111111111111 isAdmin: false
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > ignores 
+an update that carries an unknown status instead of corrupting the list
+Invalid claim status received: NOT_A_STATUS
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > ignores 
+an update that carries an unknown status instead of corrupting the list
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > is not notified about other people submitting claims
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_SUBMITTED',
+  claimId: '22222222-bbbb-4bbb-8bbb-222222222222',
+  timestamp: '2026-02-11T09:00:00Z',
+  correlationId: 'corr-1'
+}
+🔄 Processing WebSocket message: CLAIM_SUBMITTED for claim: 22222222-bbbb-4bbb-8bbb-222222222222 isAdmin: false
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > is not 
+notified about other people submitting claims
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > [known defect F-10] reloads the claims list after the connection is restored
+✅ WebSocket connected successfully
+✅ WebSocket connected successfully
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > [known 
+defect F-10] reloads the claims list after the connection is restored
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > admin > has the claim list and dashboard figures refreshed when a claim is submitted
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_SUBMITTED',
+  claimId: '22222222-bbbb-4bbb-8bbb-222222222222',
+  timestamp: '2026-02-11T09:00:00Z',
+  correlationId: 'corr-1'
+}
+🔄 Processing WebSocket message: CLAIM_SUBMITTED for claim: 22222222-bbbb-4bbb-8bbb-222222222222 isAdmin: true
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > admin > has the 
+claim list and dashboard figures refreshed when a claim is submitted
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > admin > has the claim list refreshed when a status changes
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_STATUS_CHANGED',
+  claimId: '11111111-aaaa-4aaa-8aaa-111111111111',
+  newStatus: 'UNDER_REVIEW',
+  timestamp: '2026-02-11T09:00:00Z',
+  correlationId: 'corr-1'
+}
+🔄 Processing WebSocket message: CLAIM_STATUS_CHANGED for claim: 11111111-aaaa-4aaa-8aaa-111111111111 isAdmin: true
+✨ Updating claim status: 11111111-aaaa-4aaa-8aaa-111111111111 → UNDER_REVIEW
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > admin > has the 
+claim list refreshed when a status changes
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+ ✓ tests/component/realtime-updates.component.test.tsx (10 tests) 1303ms
+       ✓ shows Live once the socket is open  793ms
+ ✓ tests/component/claims-list.component.test.tsx (5 tests) 2349ms
+     ✓ lists the claimant's claims, newest first, with a readable status  1378ms
+     ✓ invites the user to submit a first claim when there are none  340ms
+     ✓ offers a retry that recovers after a failed load  366ms
+ ✓ tests/component/claim-submission.component.test.tsx (10 tests) 4041ms
+     ✓ lets the user continue once the description is long enough  1623ms
+     ✓ keeps Next disabled and explains why when the description is too short  418ms
+     ✓ [known defect F-05] does not accept a description made only of spaces  320ms
+     ✓ sends exactly what the user reviewed  316ms
+stderr | tests/component/login.component.test.tsx > Login page > shows a network message when the server cannot be 
+reached
+Login error: TypeError: Failed to fetch
+    at C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/tests/component/support/network.ts:12:9
+    at C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/tests/component/support/network.ts:39:14
+    at Mock (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/spy/di
+st/index.js:285:34)
+    at onSubmit 
+(C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/app/(auth)/login/page.tsx:44:30)
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/react-hook-form/dist
+/index.esm.mjs:2195:23
+
+ ✓ tests/component/login.component.test.tsx (8 tests) 6040ms
+     ✓ explains the problem and sends nothing for an email that is not an email  2096ms
+     ✓ explains the problem and sends nothing for an empty password  547ms
+     ✓ shows a clear message for wrong credentials and does not sign the user in  855ms
+     ✓ shows a network message when the server cannot be reached  858ms
+     ✓ signs in a claimant and lands on their own area  763ms
+     ✓ signs in an admin and lands on their own area  650ms
+
+ Test Files  4 passed (4)
+      Tests  33 passed (33)
+   Start at  06:50:02
+   Duration  17.13s (transform 3.31s, setup 3.67s, import 12.15s, tests 13.73s, environment 23.34s)
+

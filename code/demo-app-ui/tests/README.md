@@ -44,3 +44,24 @@ infrastructure errors.
 - The Docker VM is small. Transient connection resets are retried at transport level only
   (`TRANSPORT_RETRIES`), and login / token fetch retry a few times. HTTP error statuses are never retried.
 - Tests never use a wrong password against a real demo account (Keycloak brute-force lockout).
+
+## Component tests (Vitest + Testing Library)
+
+`tests/component/*.component.test.tsx` render real screens with the **real stores and generated API
+client**; only the network boundary (`fetch`) and the WebSocket are faked (`component/support/`). They
+assert what the user sees and can do, not component internals.
+
+```bash
+npm run test:component                      # new component tests
+QA_KNOWN_DEFECTS=fail npm run test:component  # show F-05 / F-10 as real failures
+```
+
+| File | Risk covered |
+|---|---|
+| `claim-submission` | Description validation (F-05), submit success / 400 / 500 / network failure / retry / double click |
+| `claims-list` | Loading, empty, error + retry, newest-first ordering, session expiry (401) |
+| `login` | Validation, wrong credentials, network error, role-based landing, session-expired notice |
+| `realtime-updates` | Live / Reconnecting / Offline indicator, status push to claimant and admin, resync after reconnect (F-10) |
+
+`tests/setup.ts` provides an in-memory `localStorage` when Node's experimental global shadows jsdom's
+(Node 22+); without it every store using zustand `persist` crashes under the supplied test runner.

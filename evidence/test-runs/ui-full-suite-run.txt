@@ -1,0 +1,1788 @@
+﻿node.exe : (node:3372) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` 
+instead.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:3372) [DE...oks()` instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+ RUN  v4.0.18 C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui
+
+(node:20256) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20712) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14668) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17696) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2000) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20308) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16332) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ❯ tests/unit/use-theme-store.test.ts (11 tests | 2 failed) 60ms
+     ✓ has correct default state 6ms
+     ✓ setTheme updates theme to corporate 2ms
+     ✓ setTheme updates theme to warm 1ms
+     ✓ setTheme updates theme back to default 5ms
+     ✓ toggleDark flips isDark from false to true 4ms
+     ✓ toggleDark flips isDark from true to false 3ms
+     ✓ setTheme does not affect isDark 2ms
+     ✓ toggleDark does not affect theme 1ms
+     × persists theme to localStorage when changed 25ms
+     × persists isDark to localStorage when toggled 3ms
+     ✓ restores theme from localStorage on initialization 1ms
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection indicator > shows Live once the socket is open
+✅ WebSocket connected successfully
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection 
+indicator > shows Live once the socket is open
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection indicator > shows Reconnecting while it retries after the connection drops
+✅ WebSocket connected successfully
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection 
+indicator > shows Reconnecting while it retries after the connection drops
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection indicator > shows Offline after the retry budget is exhausted
+✅ WebSocket connected successfully
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > connection 
+indicator > shows Offline after the retry budget is exhausted
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > sees their claim change status without reloading, and is told about it
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_STATUS_CHANGED',
+  claimId: '11111111-aaaa-4aaa-8aaa-111111111111',
+  newStatus: 'APPROVED',
+  timestamp: '2026-02-11T09:00:00Z',
+  correlationId: 'corr-1'
+}
+🔄 Processing WebSocket message: CLAIM_STATUS_CHANGED for claim: 11111111-aaaa-4aaa-8aaa-111111111111 isAdmin: false
+✨ Updating claim status: 11111111-aaaa-4aaa-8aaa-111111111111 → APPROVED
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > sees 
+their claim change status without reloading, and is told about it
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > ignores an update that carries an unknown status instead of corrupting the list
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_STATUS_CHANGED',
+  claimId: '11111111-aaaa-4aaa-8aaa-111111111111',
+  newStatus: 'NOT_A_STATUS',
+  timestamp: '2026-02-11T09:00:00Z',
+  correlationId: 'corr-1'
+}
+🔄 Processing WebSocket message: CLAIM_STATUS_CHANGED for claim: 11111111-aaaa-4aaa-8aaa-111111111111 isAdmin: false
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > ignores 
+an update that carries an unknown status instead of corrupting the list
+Invalid claim status received: NOT_A_STATUS
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > ignores 
+an update that carries an unknown status instead of corrupting the list
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > is not notified about other people submitting claims
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_SUBMITTED',
+  claimId: '22222222-bbbb-4bbb-8bbb-222222222222',
+  timestamp: '2026-02-11T09:00:00Z',
+  correlationId: 'corr-1'
+}
+🔄 Processing WebSocket message: CLAIM_SUBMITTED for claim: 22222222-bbbb-4bbb-8bbb-222222222222 isAdmin: false
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > is not 
+notified about other people submitting claims
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > [known defect F-10] reloads the claims list after the connection is restored
+✅ WebSocket connected successfully
+✅ WebSocket connected successfully
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > claimant > [known 
+defect F-10] reloads the claims list after the connection is restored
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > admin > has the claim list and dashboard figures refreshed when a claim is submitted
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_SUBMITTED',
+  claimId: '22222222-bbbb-4bbb-8bbb-222222222222',
+  timestamp: '2026-02-11T09:00:00Z',
+  correlationId: 'corr-1'
+}
+🔄 Processing WebSocket message: CLAIM_SUBMITTED for claim: 22222222-bbbb-4bbb-8bbb-222222222222 isAdmin: true
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > admin > has the 
+claim list and dashboard figures refreshed when a claim is submitted
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stdout | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > admin > has the claim list refreshed when a status changes
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_STATUS_CHANGED',
+  claimId: '11111111-aaaa-4aaa-8aaa-111111111111',
+  newStatus: 'UNDER_REVIEW',
+  timestamp: '2026-02-11T09:00:00Z',
+  correlationId: 'corr-1'
+}
+🔄 Processing WebSocket message: CLAIM_STATUS_CHANGED for claim: 11111111-aaaa-4aaa-8aaa-111111111111 isAdmin: true
+✨ Updating claim status: 11111111-aaaa-4aaa-8aaa-111111111111 → UNDER_REVIEW
+
+stderr | tests/component/realtime-updates.component.test.tsx > real-time claim updates in the UI > admin > has the 
+claim list refreshed when a status changes
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to RealtimeHarness inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+ ✓ tests/component/realtime-updates.component.test.tsx (10 tests) 1628ms
+       ✓ shows Live once the socket is open  883ms
+ ✓ tests/component/claims-list.component.test.tsx (5 tests) 3685ms
+     ✓ lists the claimant's claims, newest first, with a readable status  2518ms
+     ✓ invites the user to submit a first claim when there are none  463ms
+     ✓ offers a retry that recovers after a failed load  404ms
+ ✓ tests/component/claim-submission.component.test.tsx (10 tests) 5226ms
+     ✓ lets the user continue once the description is long enough  2293ms
+     ✓ keeps Next disabled and explains why when the description is too short  509ms
+     ✓ [known defect F-05] does not accept a description made only of spaces  501ms
+     ✓ sends exactly what the user reviewed  378ms
+stderr | tests/component/login.component.test.tsx > Login page > shows a network message when the server cannot be 
+reached
+Login error: TypeError: Failed to fetch
+    at C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/tests/component/support/network.ts:12:9
+    at C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/tests/component/support/network.ts:39:14
+    at Mock (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/spy/di
+st/index.js:285:34)
+    at onSubmit 
+(C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/app/(auth)/login/page.tsx:44:30)
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/react-hook-form/dist
+/index.esm.mjs:2195:23
+
+stderr | src/features/claims/components/wizard-step-1.test.tsx > WizardStep1 > Prepopulated Data > should use 
+pre-filled form data from store as defaults
+An update to WizardStep1 inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+ ✓ src/features/claims/components/wizard-step-1.test.tsx (19 tests) 6472ms
+       ✓ should display Next button  1102ms
+       ✓ should disable Next button when form is invalid  342ms
+       ✓ should show error for future incident date  762ms
+       ✓ should show error for location shorter than 5 characters  472ms
+       ✓ should show error for claim amount above maximum  348ms
+       ✓ should update character counter when typing  361ms
+       ✓ should call updateFormData and nextStep with valid data  1456ms
+       ✓ should have proper aria-invalid attributes when errors exist  301ms
+       ✓ should mark error messages with role="alert"  313ms
+ ✓ tests/component/login.component.test.tsx (8 tests) 7856ms
+     ✓ explains the problem and sends nothing for an email that is not an email  2912ms
+     ✓ explains the problem and sends nothing for an empty password  764ms
+     ✓ shows a clear message for wrong credentials and does not sign the user in  1068ms
+     ✓ shows a network message when the server cannot be reached  983ms
+     ✓ signs in a claimant and lands on their own area  914ms
+     ✓ signs in an admin and lands on their own area  866ms
+(node:11012) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22756) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22748) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/features/claims/components/wizard-step-3.test.tsx (21 tests) 2616ms
+       ✓ should render heading "Review Your Claim"  1132ms
+(node:12928) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7360) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stderr | src/features/claims/components/claim-detail-modal.test.tsx > ClaimDetailModal > has correct ARIA attributes
+An update to ClaimDetailModal inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to ClaimDetailModal inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+ ✓ src/features/claims/components/claim-detail-modal.test.tsx (12 tests) 2126ms
+     ✓ renders all claim fields correctly  920ms
+     ✓ closes on close button click  315ms
+ ❯ src/features/claims/components/wizard-step-2.test.tsx (22 tests | 6 failed) 16528ms
+       ✓ should render heading "Supporting Details"  1049ms
+       ✓ should render description textarea 50ms
+       ✓ should display helpful prompt text 49ms
+       ✓ should display Back and Next buttons 275ms
+       ✓ should display initial character counter 0/1000 68ms
+       ✓ should update character counter when typing  1031ms
+       ✓ should show error color when character count is below minimum 300ms
+       × should show primary color when approaching maximum 5024ms
+       × should show muted color when character count is valid 1585ms
+       ✓ should disable Next button when description is too short 127ms
+       × should show error for description shorter than 10 characters 1283ms
+       ✓ should prevent description longer than 1000 characters via maxLength attribute 17ms
+       ✓ should enable Next button when description is valid  583ms
+       ✓ should display backend error for description 21ms
+       ✓ should mark textarea as invalid when backend error exists 21ms
+       ✓ should call previousStep when Back button is clicked 158ms
+       × should call updateFormData and nextStep when form is valid and Next is clicked 1883ms
+       × should have proper aria-invalid when error exists 1274ms
+       × should have aria-describedby linking to error and counter 1348ms
+       ✓ should mark error messages with role="alert"  344ms
+       ✓ should display pre-filled description from store 16ms
+       ✓ should display correct character count for pre-filled data 6ms
+ ✓ src/features/admin/components/confirmation-dialog.test.tsx (7 tests) 1607ms
+     ✓ calls onConfirm when confirm button clicked  1015ms
+ ✓ src/features/claims/components/progress-indicator.test.tsx (12 tests) 1404ms
+       ✓ should have navigation role  521ms
+(node:14988) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/features/auth/components/password-field.test.tsx (6 tests) 1200ms
+     ✓ toggles password visibility  856ms
+ ✓ src/components/error-boundary.test.tsx (8 tests) 1261ms
+       ✓ should display Try Again button when error occurs  667ms
+(node:17740) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6656) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:13928) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/components/connection-status-indicator.test.tsx (4 tests) 932ms
+     ✓ shows "Offline" when disconnected  606ms
+(node:24200) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14468) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/features/claims/stores/use-claim-wizard-store.test.ts (19 tests) 204ms
+ ✓ src/features/claims/components/claim-status-badge.test.tsx (6 tests) 1137ms
+     ✓ renders SUBMITTED as "Submitted"  728ms
+ ✓ tests/unit/theme-picker.test.tsx (9 tests) 323ms
+(node:22244) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should fetch stats and update store on success
+Fetching dashboard stats...
+
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should fetch stats and update store on success
+Dashboard stats received: {
+  totalUsers: 42,
+  totalClaims: 127,
+  claimsByStatus: {
+    SUBMITTED: 15,
+    UNDER_REVIEW: 8,
+    APPROVED: 3,
+    REJECTED: 2,
+    CLOSED: 1
+  },
+  cacheHit: true,
+  queryTimeMs: 95
+}
+Dashboard store updated successfully
+
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should call with bypassCache=true when specified
+Fetching dashboard stats...
+
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should call with bypassCache=true when specified
+Dashboard stats received: {
+  totalUsers: 42,
+  totalClaims: 127,
+  claimsByStatus: {
+    SUBMITTED: 15,
+    UNDER_REVIEW: 8,
+    APPROVED: 3,
+    REJECTED: 2,
+    CLOSED: 1
+  },
+  cacheHit: false,
+  queryTimeMs: 823
+}
+Dashboard store updated successfully
+
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should set ACCESS_DENIED error on 403
+Fetching dashboard stats...
+
+stderr | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should set 
+ACCESS_DENIED error on 403
+Dashboard fetch error: ResponseError: Forbidden
+    at C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/src/features/admin/stores/use-dashboard-s
+tore.test.ts:104:9
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:145:11
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:915:26
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vit
+est/runner/dist/index.js:1209:10)
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1653:37
+    at Traces.$ (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dis
+t/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dist/c
+hunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/run
+ner/dist/index.js:1653:12) {
+  response: Response {
+    status: 403,
+    statusText: '',
+    headers: Headers {},
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should set ACCESS_DENIED error on 403
+ResponseError status: 403
+
+    body: null,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: ''
+  }
+}
+
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should set generic error on other failures
+Fetching dashboard stats...
+
+stderr | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should set generic 
+error on other failures
+Dashboard fetch error: Error: Network error
+    at C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/src/features/admin/stores/use-dashboard-s
+tore.test.ts:118:72
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:145:11
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:915:26
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vit
+est/runner/dist/index.js:1209:10)
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1653:37
+    at Traces.$ (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dis
+t/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dist/c
+hunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/run
+ner/dist/index.js:1653:12)
+
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should set isLoading to true during fetch
+Fetching dashboard stats...
+
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > fetchStats > should set isLoading to true during fetch
+Dashboard stats received: {
+  totalUsers: 42,
+  totalClaims: 127,
+  claimsByStatus: {
+    SUBMITTED: 15,
+    UNDER_REVIEW: 8,
+    APPROVED: 3,
+    REJECTED: 2,
+    CLOSED: 1
+  },
+  cacheHit: true,
+  queryTimeMs: 95
+}
+Dashboard store updated successfully
+
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > flushCache > should flush cache then fetch with bypassCache=true
+Fetching dashboard stats...
+
+stdout | src/features/admin/stores/use-dashboard-store.test.ts > useDashboardStore > flushCache > should flush cache then fetch with bypassCache=true
+Dashboard stats received: {
+  totalUsers: 42,
+  totalClaims: 127,
+  claimsByStatus: {
+    SUBMITTED: 15,
+    UNDER_REVIEW: 8,
+    APPROVED: 3,
+    REJECTED: 2,
+    CLOSED: 1
+  },
+  cacheHit: false,
+  queryTimeMs: 823
+}
+Dashboard store updated successfully
+
+ ✓ src/features/admin/stores/use-dashboard-store.test.ts (13 tests) 261ms
+(node:10408) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should fetch all claims and update store on success
+Fetching admin claims with params: {}
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should fetch all claims and update store on success
+Admin claims received: [
+  {
+    claimId: 'claim-001',
+    userId: 'user-001',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'SUBMITTED',
+    createdAt: 2026-01-15T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  },
+  {
+    claimId: 'claim-002',
+    userId: 'user-002',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'UNDER_REVIEW',
+    createdAt: 2026-01-15T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  },
+  {
+    claimId: 'claim-003',
+    userId: 'user-003',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'APPROVED',
+    createdAt: 2026-01-15T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  }
+]
+Admin claims store updated successfully
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should fetch claims filtered by status
+Fetching admin claims with params: { status: 'SUBMITTED' }
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should fetch claims filtered by status
+Admin claims received: [
+  {
+    claimId: 'claim-001',
+    userId: 'user-001',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'SUBMITTED',
+    createdAt: 2026-01-15T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  }
+]
+Admin claims store updated successfully
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should sort claims by createdAt DESC (newest first)
+Fetching admin claims with params: {}
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should sort claims by createdAt DESC (newest first)
+Admin claims received: [
+  {
+    claimId: 'claim-old',
+    userId: 'user-001',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'SUBMITTED',
+    createdAt: 2026-01-01T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  },
+  {
+    claimId: 'claim-newest',
+    userId: 'user-001',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'SUBMITTED',
+    createdAt: 2026-01-20T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  },
+  {
+    claimId: 'claim-middle',
+    userId: 'user-001',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'SUBMITTED',
+    createdAt: 2026-01-10T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  }
+]
+Admin claims store updated successfully
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should set ACCESS_DENIED error on 403
+Fetching admin claims with params: {}
+
+stderr | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should set 
+ACCESS_DENIED error on 403
+Admin claims fetch error: ResponseError: Forbidden
+    at C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/src/features/admin/stores/use-admin-claim
+s-store.test.ts:128:9
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:145:11
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:915:26
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should set ACCESS_DENIED error on 403
+ResponseError status: 403
+
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vit
+est/runner/dist/index.js:1209:10)
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1653:37
+    at Traces.$ (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dis
+t/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dist/c
+hunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/run
+ner/dist/index.js:1653:12) {
+  response: Response {
+    status: 403,
+    statusText: '',
+    headers: Headers {},
+    body: null,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: ''
+  }
+}
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should set generic error on other failures
+Fetching admin claims with params: {}
+
+stderr | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should set 
+generic error on other failures
+Admin claims fetch error: Error: Network error
+    at C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/src/features/admin/stores/use-admin-claim
+s-store.test.ts:142:68
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:145:11
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:915:26
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vit
+est/runner/dist/index.js:1209:10)
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1653:37
+    at Traces.$ (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dis
+t/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dist/c
+hunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/run
+ner/dist/index.js:1653:12)
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should set isLoading to true during fetch
+Fetching admin claims with params: {}
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > fetchClaims > should set isLoading to true during fetch
+Admin claims received: [
+  {
+    claimId: 'claim-001',
+    userId: 'user-001',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'SUBMITTED',
+    createdAt: 2026-01-15T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  },
+  {
+    claimId: 'claim-002',
+    userId: 'user-002',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'UNDER_REVIEW',
+    createdAt: 2026-01-15T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  },
+  {
+    claimId: 'claim-003',
+    userId: 'user-003',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'APPROVED',
+    createdAt: 2026-01-15T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  }
+]
+Admin claims store updated successfully
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > setStatusFilter > should set filter and trigger fetch
+Fetching admin claims with params: { status: 'APPROVED' }
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > setStatusFilter > should set filter and trigger fetch
+Admin claims received: []
+Admin claims store updated successfully
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > clearFilters > should reset filters and fetch all claims
+Fetching admin claims with params: {}
+
+stdout | src/features/admin/stores/use-admin-claims-store.test.ts > useAdminClaimsStore > clearFilters > should reset filters and fetch all claims
+Admin claims received: [
+  {
+    claimId: 'claim-001',
+    userId: 'user-001',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'SUBMITTED',
+    createdAt: 2026-01-15T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  },
+  {
+    claimId: 'claim-002',
+    userId: 'user-002',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'UNDER_REVIEW',
+    createdAt: 2026-01-15T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  },
+  {
+    claimId: 'claim-003',
+    userId: 'user-003',
+    incidentDate: 2026-01-15T00:00:00.000Z,
+    incidentLocation: 'Office',
+    description: 'Test claim description',
+    claimAmount: 1500,
+    status: 'APPROVED',
+    createdAt: 2026-01-15T00:00:00.000Z,
+    updatedAt: 2026-01-15T00:00:00.000Z
+  }
+]
+Admin claims store updated successfully
+
+ ✓ src/features/admin/stores/use-admin-claims-store.test.ts (18 tests) 296ms
+stdout | tests/unit/use-realtime-claim-updates.test.ts > useRealtimeClaimUpdates > returns isConnected=true after successful connection
+✅ WebSocket connected successfully
+
+stdout | tests/unit/use-realtime-claim-updates.test.ts > useRealtimeClaimUpdates > calls onMessage callback when message received
+✅ WebSocket connected successfully
+📨 WebSocket message received: {
+  type: 'CLAIM_STATUS_CHANGED',
+  claimId: 'claim-123',
+  newStatus: 'APPROVED',
+  oldStatus: 'UNDER_REVIEW',
+  timestamp: '2026-02-17T12:00:00Z',
+  correlationId: 'corr-1'
+}
+
+stdout | tests/unit/use-realtime-claim-updates.test.ts > useRealtimeClaimUpdates > attempts reconnection with exponential backoff on disconnect
+✅ WebSocket connected successfully
+
+stdout | tests/unit/use-realtime-claim-updates.test.ts > useRealtimeClaimUpdates > resets retry count on successful reconnection
+✅ WebSocket connected successfully
+✅ WebSocket connected successfully
+
+stdout | tests/unit/use-realtime-claim-updates.test.ts > useRealtimeClaimUpdates > disconnects on unmount
+✅ WebSocket connected successfully
+
+stdout | tests/unit/use-realtime-claim-updates.test.ts > useRealtimeClaimUpdates > logs error when receiving invalid JSON message
+✅ WebSocket connected successfully
+
+stdout | tests/unit/use-realtime-claim-updates.test.ts > useRealtimeClaimUpdates > logs error on WebSocket error event
+✅ WebSocket connected successfully
+
+ ✓ tests/unit/use-realtime-claim-updates.test.ts (10 tests) 199ms
+(node:2180) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9844) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24372) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21052) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+stderr | tests/unit/theme-provider.test.tsx > ThemeProvider > removes old theme class when theme changes
+An update to ThemeProvider inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+stderr | tests/unit/theme-provider.test.tsx > ThemeProvider > handles theme and dark mode changes together
+An update to ThemeProvider inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+An update to ThemeProvider inside a test was not wrapped in act(...).
+
+When testing, code that causes React state updates should be wrapped into act(...):
+
+act(() => {
+  /* fire events that update state */
+});
+/* assert on the output */
+
+This ensures that you're testing the behavior the user would see in the browser. Learn more at 
+https://react.dev/link/wrap-tests-with-act
+
+ ✓ src/features/claims/utils/formatting.test.ts (10 tests) 91ms
+ ✓ tests/unit/theme-provider.test.tsx (8 tests) 119ms
+(node:19636) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/features/auth/schemas/auth-schemas.test.ts (10 tests) 39ms
+ ✓ src/features/claims/stores/use-claims-store.test.ts (9 tests) 158ms
+stdout | src/features/admin/stores/use-users-store.test.ts > useUsersStore > fetchUsers > should fetch and sort users by createdAt descending
+Fetching all users...
+
+stdout | src/features/admin/stores/use-users-store.test.ts > useUsersStore > fetchUsers > should fetch and sort users by createdAt descending
+Users received: [
+  { id: '1', createdAt: '2025-01-01T00:00:00Z' },
+  { id: '2', createdAt: '2025-06-01T00:00:00Z' }
+]
+Users store updated successfully
+
+stdout | src/features/admin/stores/use-users-store.test.ts > useUsersStore > fetchUsers > should handle 403 ACCESS_DENIED error
+Fetching all users...
+
+stderr | src/features/admin/stores/use-users-store.test.ts > useUsersStore > fetchUsers > should handle 403 
+ACCESS_DENIED error
+Users fetch error: ResponseError: Forbidden
+    at C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/src/features/admin/stores/use-users-store
+.test.ts:51:21
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:145:11
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:915:26
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vit
+est/runner/dist/index.js:1209:10)
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1653:37
+    at Traces.$ (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dis
+t/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dist/c
+hunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/run
+ner/dist/index.js:1653:12) {
+  response: Response {
+    status: 403,
+    statusText: '',
+    headers: Headers {},
+    body: null,
+    bodyUsed: false,
+    ok: false,
+    redirected: false,
+    type: 'default',
+    url: ''
+  }
+}
+
+stdout | src/features/admin/stores/use-users-store.test.ts > useUsersStore > fetchUsers > should handle 403 ACCESS_DENIED error
+ResponseError status: 403
+
+stdout | src/features/admin/stores/use-users-store.test.ts > useUsersStore > fetchUsers > should handle generic errors
+Fetching all users...
+
+stderr | src/features/admin/stores/use-users-store.test.ts > useUsersStore > fetchUsers > should handle generic errors
+Users fetch error: Error: Network
+    at C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/src/features/admin/stores/use-users-store
+.test.ts:67:67
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:145:11
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:915:26
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1243:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vit
+est/runner/dist/index.js:1209:10)
+    at file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/runner/dist/
+index.js:1653:37
+    at Traces.$ (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dis
+t/chunks/traces.CCmnQaNT.js:142:27)
+    at trace (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/vitest/dist/c
+hunks/test.B8ej_ZHS.js:239:21)
+    at runTest (file:///C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/demo-app-ui/node_modules/@vitest/run
+ner/dist/index.js:1653:12)
+
+ ✓ src/features/admin/stores/use-users-store.test.ts (6 tests) 142ms
+(node:24480) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:352) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ tests/unit/use-realtime-store.test.ts (11 tests) 42ms
+ ✓ src/features/claims/hooks/use-copy-clipboard.test.ts (3 tests) 89ms
+(node:16004) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/features/admin/utils/claim-status-transitions.test.ts (8 tests) 16ms
+(node:18796) ExperimentalWarning: localStorage is not available because --localstorage-file was not provided.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ ✓ src/features/auth/stores/use-auth-store.test.ts (4 tests) 15ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 8 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/unit/use-theme-store.test.ts > useThemeStore > persists theme to localStorage when changed
+AssertionError: expected null to be truthy
+
+- Expected: 
+true
+
++ Received: 
+null
+
+ ❯ tests/unit/use-theme-store.test.ts:61:20
+     59| 
+     60|     const stored = localStorage.getItem('theme-storage');
+     61|     expect(stored).toBeTruthy();
+       |                    ^
+     62| 
+     63|     const parsed = JSON.parse(stored!);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/8]⎯
+
+ FAIL  tests/unit/use-theme-store.test.ts > useThemeStore > persists isDark to localStorage when toggled
+AssertionError: expected null to be truthy
+
+- Expected: 
+true
+
++ Received: 
+null
+
+ ❯ tests/unit/use-theme-store.test.ts:71:20
+     69| 
+     70|     const stored = localStorage.getItem('theme-storage');
+     71|     expect(stored).toBeTruthy();
+       |                    ^
+     72| 
+     73|     const parsed = JSON.parse(stored!);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/8]⎯
+
+ FAIL  src/features/claims/components/wizard-step-2.test.tsx > WizardStep2 > Character Counter > should show primary 
+color when approaching maximum
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/features/claims/components/wizard-step-2.test.tsx:107:5
+    105|     });
+    106| 
+    107|     it('should show primary color when approaching maximum', async () …
+       |     ^
+    108|       const user = userEvent.setup();
+    109|       render(<WizardStep2 />);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/8]⎯
+
+ FAIL  src/features/claims/components/wizard-step-2.test.tsx > WizardStep2 > Character Counter > should show muted 
+color when character count is valid
+TestingLibraryElementError: Unable to find an element with the text: 50/1000. This could be because the text is broken 
+up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more 
+flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<form[39m
+      [33mclass[39m=[32m"space-y-6"[39m
+      [33mdata-testid[39m=[32m"wizard-step-2"[39m
+      [33mnovalidate[39m=[32m""[39m
+    [36m>[39m
+      [36m<h2[39m
+        [33mclass[39m=[32m"text-2xl font-semibold text-text-primary"[39m
+      [36m>[39m
+        [0mSupporting Details[0m
+      [36m</h2>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"space-y-1"[39m
+      [36m>[39m
+        [36m<label[39m
+          [33mclass[39m=[32m"block text-sm font-medium text-text-secondary"[39m
+          [33mfor[39m=[32m"description"[39m
+        [36m>[39m
+          [0mDescribe what happened [0m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-error"[39m
+          [36m>[39m
+            [0m*[0m
+          [36m</span>[39m
+        [36m</label>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"mb-2 text-sm text-text-muted"[39m
+        [36m>[39m
+          [0mBe as detailed as possible. Include what happened, when, and any relevant circumstances.[0m
+        [36m</p>[39m
+        [36m<textarea[39m
+          [33maria-describedby[39m=[32m"description-counter"[39m
+          [33maria-invalid[39m=[32m"false"[39m
+          [33mclass[39m=[32m"w-full resize-none rounded-lg border border-input-border bg-input-bg px-4 py-2 
+text-text-primary transition-colors placeholder:text-text-muted focus:border-transparent focus:outline-none 
+focus:ring-2 focus:ring-input-focus"[39m
+          [33mid[39m=[32m"description"[39m
+          [33mmaxlength[39m=[32m"1000"[39m
+          [33mminlength[39m=[32m"10"[39m
+          [33mname[39m=[32m"description"[39m
+          [33mplaceholder[39m=[32m"Describe the incident in detail..."[39m
+          [33mrows[39m=[32m"8"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center justify-between"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"ml-auto text-xs text-text-muted"[39m
+            [33mid[39m=[32m"description-counter"[39m
+          [36m>[39m
+            [0m169[0m
+            [0m/1000[0m
+          [36m</p>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex justify-between"[39m
+      [36m>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"rounded-lg bg-button-secondary-bg px-6 py-2 font-medium text-button-secondary-text 
+transition-colors hover:bg-button-secondary-hover"[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mBack[0m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"rounded-lg bg-primary px-6 py-2 font-medium text-on-primary transition-colors 
+hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50"[39m
+          [33mtype[39m=[32m"submit"[39m
+        [36m>[39m
+          [0mNext[0m
+        [36m</button>[39m
+      [36m</div>[39m
+    [36m</form>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<form[39m
+        [33mclass[39m=[32m"space-y-6"[39m
+        [33mdata-testid[39m=[32m"wizard-step-2"[39m
+        [33mnovalidate[39m=[32m""[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-text-primary"[39m
+        [36m>[39m
+          [0mSupporting Details[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"space-y-1"[39m
+        [36m>[39m
+          [36m<label[39m
+            [33mclass[39m=[32m"block text-sm font-medium text-text-secondary"[39m
+            [33mfor[39m=[32m"description"[39m
+          [36m>[39m
+            [0mDescribe what happened [0m
+            [36m<span[39m
+              [33mclass[39m=[32m"text-error"[39m
+            [36m>[39m
+              [0m*[0m
+            [36m</span>[39m
+          [36m</label>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"mb-2 text-sm text-text-muted"[39m
+          [36m>[39m
+            [0mBe as detailed as possible. Include what happened, when, and any relevant circumstances.[0m
+          [36m</p>[39m
+          [36m<textarea[39m
+            [33maria-describedby[39m=[32m"description-counter"[39m
+            [33maria-invalid[39m=[32m"false"[39m
+            [33mclass[39m=[32m"w-full resize-none rounded-lg border border-input-border bg-input-bg px-4 py-2 
+text-text-primary transition-colors placeholder:text-text-muted focus:border-transparent focus:outline-none 
+focus:ring-2 focus:ring-input-focus"[39m
+            [33mid[39m=[32m"description"[39m
+            [33mmaxlength[39m=[32m"1000"[39m
+            [33mminlength[39m=[32m"10"[39m
+            [33mname[39m=[32m"description"[39m
+            [33mplaceholder[39m=[32m"Describe the incident in detail..."[39m
+            [33mrows[39m=[32m"8"[39m
+          [36m/>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex items-center justify-between"[39m
+          [36m>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"ml-auto text-xs text-text-muted"[39m
+              [33mid[39m=[32m"description-counter"[39m
+            [36m>[39m
+              [0m169[0m
+              [0m/1000[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex justify-between"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"rounded-lg bg-button-secondary-bg px-6 py-2 font-medium text-button-secondary-text 
+transition-colors hover:bg-button-secondary-hover"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mBack[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"rounded-lg bg-primary px-6 py-2 font-medium text-on-primary transition-colors 
+hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50"[39m
+            [33mtype[39m=[32m"submit"[39m
+          [36m>[39m
+            [0mNext[0m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</form>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+ ❯ Proxy.waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:163:27
+ ❯ src/features/claims/components/wizard-step-2.test.tsx:130:13
+    128|       await user.type(textarea, 'This is a valid description with suff…
+    129| 
+    130|       await waitFor(() => {
+       |             ^
+    131|         const counter = screen.getByText('50/1000');
+    132|         expect(counter).toHaveClass('text-text-muted');
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/8]⎯
+
+ FAIL  src/features/claims/components/wizard-step-2.test.tsx > WizardStep2 > Field Validation > should show error for 
+description shorter than 10 characters
+TestingLibraryElementError: Unable to find an element with the text: /Description must be at least 10 characters/i. 
+This could be because the text is broken up by multiple elements. In this case, you can provide a function for your 
+text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<form[39m
+      [33mclass[39m=[32m"space-y-6"[39m
+      [33mdata-testid[39m=[32m"wizard-step-2"[39m
+      [33mnovalidate[39m=[32m""[39m
+    [36m>[39m
+      [36m<h2[39m
+        [33mclass[39m=[32m"text-2xl font-semibold text-text-primary"[39m
+      [36m>[39m
+        [0mSupporting Details[0m
+      [36m</h2>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"space-y-1"[39m
+      [36m>[39m
+        [36m<label[39m
+          [33mclass[39m=[32m"block text-sm font-medium text-text-secondary"[39m
+          [33mfor[39m=[32m"description"[39m
+        [36m>[39m
+          [0mDescribe what happened [0m
+          [36m<span[39m
+            [33mclass[39m=[32m"text-error"[39m
+          [36m>[39m
+            [0m*[0m
+          [36m</span>[39m
+        [36m</label>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"mb-2 text-sm text-text-muted"[39m
+        [36m>[39m
+          [0mBe as detailed as possible. Include what happened, when, and any relevant circumstances.[0m
+        [36m</p>[39m
+        [36m<textarea[39m
+          [33maria-describedby[39m=[32m"description-counter"[39m
+          [33maria-invalid[39m=[32m"false"[39m
+          [33mclass[39m=[32m"w-full resize-none rounded-lg border border-input-border bg-input-bg px-4 py-2 
+text-text-primary transition-colors placeholder:text-text-muted focus:border-transparent focus:outline-none 
+focus:ring-2 focus:ring-input-focus"[39m
+          [33mid[39m=[32m"description"[39m
+          [33mmaxlength[39m=[32m"1000"[39m
+          [33mminlength[39m=[32m"10"[39m
+          [33mname[39m=[32m"description"[39m
+          [33mplaceholder[39m=[32m"Describe the incident in detail..."[39m
+          [33mrows[39m=[32m"8"[39m
+        [36m/>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center justify-between"[39m
+        [36m>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"ml-auto text-xs text-text-muted"[39m
+            [33mid[39m=[32m"description-counter"[39m
+          [36m>[39m
+            [0m13[0m
+            [0m/1000[0m
+          [36m</p>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex justify-between"[39m
+      [36m>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"rounded-lg bg-button-secondary-bg px-6 py-2 font-medium text-button-secondary-text 
+transition-colors hover:bg-button-secondary-hover"[39m
+          [33mtype[39m=[32m"button"[39m
+        [36m>[39m
+          [0mBack[0m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"rounded-lg bg-primary px-6 py-2 font-medium text-on-primary transition-colors 
+hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50"[39m
+          [33mtype[39m=[32m"submit"[39m
+        [36m>[39m
+          [0mNext[0m
+        [36m</button>[39m
+      [36m</div>[39m
+    [36m</form>[39m
+  [36m</div>[39m
+[36m</body>[39m
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<form[39m
+        [33mclass[39m=[32m"space-y-6"[39m
+        [33mdata-testid[39m=[32m"wizard-step-2"[39m
+        [33mnovalidate[39m=[32m""[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-text-primary"[39m
+        [36m>[39m
+          [0mSupporting Details[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"space-y-1"[39m
+        [36m>[39m
+          [36m<label[39m
+            [33mclass[39m=[32m"block text-sm font-medium text-text-secondary"[39m
+            [33mfor[39m=[32m"description"[39m
+          [36m>[39m
+            [0mDescribe what happened [0m
+            [36m<span[39m
+              [33mclass[39m=[32m"text-error"[39m
+            [36m>[39m
+              [0m*[0m
+            [36m</span>[39m
+          [36m</label>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"mb-2 text-sm text-text-muted"[39m
+          [36m>[39m
+            [0mBe as detailed as possible. Include what happened, when, and any relevant circumstances.[0m
+          [36m</p>[39m
+          [36m<textarea[39m
+            [33maria-describedby[39m=[32m"description-counter"[39m
+            [33maria-invalid[39m=[32m"false"[39m
+            [33mclass[39m=[32m"w-full resize-none rounded-lg border border-input-border bg-input-bg px-4 py-2 
+text-text-primary transition-colors placeholder:text-text-muted focus:border-transparent focus:outline-none 
+focus:ring-2 focus:ring-input-focus"[39m
+            [33mid[39m=[32m"description"[39m
+            [33mmaxlength[39m=[32m"1000"[39m
+            [33mminlength[39m=[32m"10"[39m
+            [33mname[39m=[32m"description"[39m
+            [33mplaceholder[39m=[32m"Describe the incident in detail..."[39m
+            [33mrows[39m=[32m"8"[39m
+          [36m/>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex items-center justify-between"[39m
+          [36m>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"ml-auto text-xs text-text-muted"[39m
+              [33mid[39m=[32m"description-counter"[39m
+            [36m>[39m
+              [0m13[0m
+              [0m/1000[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex justify-between"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"rounded-lg bg-button-secondary-bg px-6 py-2 font-medium text-button-secondary-text 
+transition-colors hover:bg-button-secondary-hover"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mBack[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"rounded-lg bg-primary px-6 py-2 font-medium text-on-primary transition-colors 
+hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50"[39m
+            [33mtype[39m=[32m"submit"[39m
+          [36m>[39m
+            [0mNext[0m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</form>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+ ❯ Proxy.waitForWrapper node_modules/@testing-library/dom/dist/wait-for.js:163:27
+ ❯ src/features/claims/components/wizard-step-2.test.tsx:154:13
+    152|       await user.tab();
+    153| 
+    154|       await waitFor(() => {
+       |             ^
+    155|         expect(
+    156|           screen.getByText(/Description must be at least 10 characters…
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/8]⎯
+
+ FAIL  src/features/claims/components/wizard-step-2.test.tsx > WizardStep2 > Navigation > should call updateFormData 
+and nextStep when form is valid and Next is clicked
+AssertionError: expected "vi.fn()" to be called with arguments: [ Array(1) ]
+
+Received: 
+
+  1st vi.fn() call:
+
+  [
+    {
+-     "description": "This is a valid and detailed description of the incident",
++     "description": "aTahaiasa aiasa aaa avaaalaiada aaanada adaeataaaialaeada adaeasacaraiapataiaoana aoafa atahaea 
+aianacaiadaeanataaaaa",
+    },
+  ]
+
+
+Number of calls: 1
+
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<form[39m
+        [33mclass[39m=[32m"space-y-6"[39m
+        [33mdata-testid[39m=[32m"wizard-step-2"[39m
+        [33mnovalidate[39m=[32m""[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-text-primary"[39m
+        [36m>[39m
+          [0mSupporting Details[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"space-y-1"[39m
+        [36m>[39m
+          [36m<label[39m
+            [33mclass[39m=[32m"block text-sm font-medium text-text-secondary"[39m
+            [33mfor[39m=[32m"description"[39m
+          [36m>[39m
+            [0mDescribe what happened [0m
+            [36m<span[39m
+              [33mclass[39m=[32m"text-error"[39m
+            [36m>[39m
+              [0m*[0m
+            [36m</span>[39m
+          [36m</label>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"mb-2 text-sm text-text-muted"[39m
+          [36m>[39m
+            [0mBe as detailed as possible. Include what happened, when, and any relevant circumstances.[0m
+          [36m</p>[39m
+          [36m<textarea[39m
+            [33maria-describedby[39m=[32m"description-counter"[39m
+            [33maria-invalid[39m=[32m"false"[39m
+            [33mclass[39m=[32m"w-full resize-none rounded-lg border border-input-border bg-input-bg px-4 py-2 
+text-text-primary transition-colors placeholder:text-text-muted focus:border-transparent focus:outline-none 
+focus:ring-2 focus:ring-input-focus"[39m
+            [33mid[39m=[32m"description"[39m
+            [33mmaxlength[39m=[32m"1000"[39m
+            [33mminlength[39m=[32m"10"[39m
+            [33mname[39m=[32m"description"[39m
+            [33mplaceholder[39m=[32m"Describe the incident in detail..."[39m
+            [33mrows[39m=[32m"8"[39m
+          [36m/>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex items-center justify-between"[39m
+          [36m>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"ml-auto text-xs text-text-muted"[39m
+              [33mid[39m=[32m"description-counter"[39m
+            [36m>[39m
+              [0m117[0m
+              [0m/1000[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex justify-between"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"rounded-lg bg-button-secondary-bg px-6 py-2 font-medium text-button-secondary-text 
+transition-colors hover:bg-button-secondary-hover"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mBack[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"rounded-lg bg-primary px-6 py-2 font-medium text-on-primary transition-colors 
+hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50"[39m
+            [33mtype[39m=[32m"submit"[39m
+          [36m>[39m
+            [0mNext[0m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</form>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+ ❯ src/features/claims/components/wizard-step-2.test.tsx:268:36
+    266| 
+    267|       await waitFor(() => {
+    268|         expect(mockUpdateFormData).toHaveBeenCalledWith({
+       |                                    ^
+    269|           description: 'This is a valid and detailed description of th…
+    270|         });
+ ❯ runWithExpensiveErrorDiagnosticsDisabled node_modules/@testing-library/dom/dist/config.js:47:12
+ ❯ checkCallback node_modules/@testing-library/dom/dist/wait-for.js:124:77
+ ❯ Timeout.checkRealTimersCallback node_modules/@testing-library/dom/dist/wait-for.js:118:16
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/8]⎯
+
+ FAIL  src/features/claims/components/wizard-step-2.test.tsx > WizardStep2 > Accessibility > should have proper 
+aria-invalid when error exists
+Error: expect(element).toHaveAttribute("aria-invalid", "true") // element.getAttribute("aria-invalid") === "true"
+
+Expected the element to have attribute:
+  aria-invalid="true"
+Received:
+  aria-invalid="false"
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<form[39m
+        [33mclass[39m=[32m"space-y-6"[39m
+        [33mdata-testid[39m=[32m"wizard-step-2"[39m
+        [33mnovalidate[39m=[32m""[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-text-primary"[39m
+        [36m>[39m
+          [0mSupporting Details[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"space-y-1"[39m
+        [36m>[39m
+          [36m<label[39m
+            [33mclass[39m=[32m"block text-sm font-medium text-text-secondary"[39m
+            [33mfor[39m=[32m"description"[39m
+          [36m>[39m
+            [0mDescribe what happened [0m
+            [36m<span[39m
+              [33mclass[39m=[32m"text-error"[39m
+            [36m>[39m
+              [0m*[0m
+            [36m</span>[39m
+          [36m</label>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"mb-2 text-sm text-text-muted"[39m
+          [36m>[39m
+            [0mBe as detailed as possible. Include what happened, when, and any relevant circumstances.[0m
+          [36m</p>[39m
+          [36m<textarea[39m
+            [33maria-describedby[39m=[32m"description-counter"[39m
+            [33maria-invalid[39m=[32m"false"[39m
+            [33mclass[39m=[32m"w-full resize-none rounded-lg border border-input-border bg-input-bg px-4 py-2 
+text-text-primary transition-colors placeholder:text-text-muted focus:border-transparent focus:outline-none 
+focus:ring-2 focus:ring-input-focus"[39m
+            [33mid[39m=[32m"description"[39m
+            [33mmaxlength[39m=[32m"1000"[39m
+            [33mminlength[39m=[32m"10"[39m
+            [33mname[39m=[32m"description"[39m
+            [33mplaceholder[39m=[32m"Describe the incident in detail..."[39m
+            [33mrows[39m=[32m"8"[39m
+          [36m/>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex items-center justify-between"[39m
+          [36m>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"ml-auto text-xs text-text-muted"[39m
+              [33mid[39m=[32m"description-counter"[39m
+            [36m>[39m
+              [0m13[0m
+              [0m/1000[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex justify-between"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"rounded-lg bg-button-secondary-bg px-6 py-2 font-medium text-button-secondary-text 
+transition-colors hover:bg-button-secondary-hover"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mBack[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"rounded-lg bg-primary px-6 py-2 font-medium text-on-primary transition-colors 
+hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50"[39m
+            [33mtype[39m=[32m"submit"[39m
+          [36m>[39m
+            [0mNext[0m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</form>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+ ❯ src/features/claims/components/wizard-step-2.test.tsx:287:26
+    285| 
+    286|       await waitFor(() => {
+    287|         expect(textarea).toHaveAttribute('aria-invalid', 'true');
+       |                          ^
+    288|       });
+    289|     });
+ ❯ runWithExpensiveErrorDiagnosticsDisabled node_modules/@testing-library/dom/dist/config.js:47:12
+ ❯ checkCallback node_modules/@testing-library/dom/dist/wait-for.js:124:77
+ ❯ Timeout.checkRealTimersCallback node_modules/@testing-library/dom/dist/wait-for.js:118:16
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/8]⎯
+
+ FAIL  src/features/claims/components/wizard-step-2.test.tsx > WizardStep2 > Accessibility > should have 
+aria-describedby linking to error and counter
+AssertionError: expected 'description-counter' to contain 'description-error'
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+
+ Test Files  2 failed | 27 passed (29)
+      Tests  8 failed | 291 passed (299)
+   Start at  06:51:06
+   Duration  58.55s (transform 8.18s, setup 32.28s, import 60.04s, tests 55.73s, environment 203.22s)
+
+    [36m<div>[39m
+      [36m<form[39m
+        [33mclass[39m=[32m"space-y-6"[39m
+        [33mdata-testid[39m=[32m"wizard-step-2"[39m
+        [33mnovalidate[39m=[32m""[39m
+      [36m>[39m
+        [36m<h2[39m
+          [33mclass[39m=[32m"text-2xl font-semibold text-text-primary"[39m
+        [36m>[39m
+          [0mSupporting Details[0m
+        [36m</h2>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"space-y-1"[39m
+        [36m>[39m
+          [36m<label[39m
+            [33mclass[39m=[32m"block text-sm font-medium text-text-secondary"[39m
+            [33mfor[39m=[32m"description"[39m
+          [36m>[39m
+            [0mDescribe what happened [0m
+            [36m<span[39m
+              [33mclass[39m=[32m"text-error"[39m
+            [36m>[39m
+              [0m*[0m
+            [36m</span>[39m
+          [36m</label>[39m
+          [36m<p[39m
+            [33mclass[39m=[32m"mb-2 text-sm text-text-muted"[39m
+          [36m>[39m
+            [0mBe as detailed as possible. Include what happened, when, and any relevant circumstances.[0m
+          [36m</p>[39m
+          [36m<textarea[39m
+            [33maria-describedby[39m=[32m"description-counter"[39m
+            [33maria-invalid[39m=[32m"false"[39m
+            [33mclass[39m=[32m"w-full resize-none rounded-lg border border-input-border bg-input-bg px-4 py-2 
+text-text-primary transition-colors placeholder:text-text-muted focus:border-transparent focus:outline-none 
+focus:ring-2 focus:ring-input-focus"[39m
+            [33mid[39m=[32m"description"[39m
+            [33mmaxlength[39m=[32m"1000"[39m
+            [33mminlength[39m=[32m"10"[39m
+            [33mname[39m=[32m"description"[39m
+            [33mplaceholder[39m=[32m"Describe the incident in detail..."[39m
+            [33mrows[39m=[32m"8"[39m
+          [36m/>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex items-center justify-between"[39m
+          [36m>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"ml-auto text-xs text-text-muted"[39m
+              [33mid[39m=[32m"description-counter"[39m
+            [36m>[39m
+              [0m13[0m
+              [0m/1000[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex justify-between"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"rounded-lg bg-button-secondary-bg px-6 py-2 font-medium text-button-secondary-text 
+transition-colors hover:bg-button-secondary-hover"[39m
+            [33mtype[39m=[32m"button"[39m
+          [36m>[39m
+            [0mBack[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"rounded-lg bg-primary px-6 py-2 font-medium text-on-primary transition-colors 
+hover:bg-primary-hover disabled:cursor-not-allowed disabled:opacity-50"[39m
+            [33mtype[39m=[32m"submit"[39m
+          [36m>[39m
+            [0mNext[0m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</form>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+
+Expected: "description-error"
+Received: "description-counter"
+
+ ❯ src/features/claims/components/wizard-step-2.test.tsx:302:33
+    300|       await waitFor(() => {
+    301|         const ariaDescribedBy = textarea.getAttribute('aria-describedb…
+    302|         expect(ariaDescribedBy).toContain('description-error');
+       |                                 ^
+    303|         expect(ariaDescribedBy).toContain('description-counter');
+    304|       });
+ ❯ runWithExpensiveErrorDiagnosticsDisabled node_modules/@testing-library/dom/dist/config.js:47:12
+ ❯ checkCallback node_modules/@testing-library/dom/dist/wait-for.js:124:77
+ ❯ Timeout.checkRealTimersCallback node_modules/@testing-library/dom/dist/wait-for.js:118:16
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/8]⎯
+
