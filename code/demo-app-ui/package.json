@@ -14,6 +14,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "test:coverage": "vitest run --coverage",
+    "test:component": "vitest run tests/component",
     "test:api": "playwright test --project=api",
     "test:e2e": "playwright test --project=e2e",
     "test:cleanup": "npx tsx scripts/cleanup-test-data.ts"
