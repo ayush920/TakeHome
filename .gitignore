@@ -33,8 +33,6 @@ venv/
 # MyPy
 .mypy_cache/
 
-# AI working journal - kept local, not committed (for now)
-AI_PROMPT_LOG.md
 
 # Maven build output
 code/*/target/
