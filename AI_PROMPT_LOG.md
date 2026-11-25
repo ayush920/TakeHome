@@ -142,11 +142,3 @@ Prompt: "Half of the existing UI tests crash on my machine. Is that my setup or 
 Result: traced to Node 26's global `localStorage` shadowing jsdom's. A small, documented fallback was added. The 8 remaining failures are reported as the baseline, not hidden.
 
 ---
-
-## Questions to be ready for
-
-- **Why not test everything?** The brief says prioritise. Ranked by damage if wrong, and the "left out" list is in `TEST_STRATEGY.md`.
-- **Why does the green run include 36 expected failures?** They are real defects; see "How the suite handles real defects" above. Run with `QA_KNOWN_DEFECTS=fail` to show them live.
-- **Why are some browser tests flaky?** The Docker VM is too small for nine containers plus a browser. F-13 describes the symptom (Keycloak stalls, connection resets).
-- **What did you skip?** Load tests and visual regression (both bonus), the Debezium pipeline end to end, cross-browser, accessibility.
-- **What would you do next?** Run the full BFF and claims-service suites in CI, add outbox-style tests for event delivery (F-10), stabilise the browser tests against a production build of the UI, and add k6 load tests for F-03.
