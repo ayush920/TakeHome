@@ -15,6 +15,7 @@ import io.micrometer.core.instrument.MeterRegistry;
 import io.micrometer.core.instrument.simple.SimpleMeterRegistry;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.context.ApplicationEventPublisher;
 
 import java.math.BigDecimal;
 import java.time.Instant;
@@ -42,7 +43,7 @@ class UpdateClaimStatusUseCaseTest {
         claimRepository = mock(ClaimRepository.class);
         userRepository = mock(UserRepository.class);
         meterRegistry = new SimpleMeterRegistry();
-        useCase = new UpdateClaimStatusUseCase(claimRepository, userRepository, meterRegistry);
+        useCase = new UpdateClaimStatusUseCase(claimRepository, userRepository, meterRegistry, mock(ApplicationEventPublisher.class));
     }
 
     // TC-031: Use case orchestration logic tested with mocked repositories
