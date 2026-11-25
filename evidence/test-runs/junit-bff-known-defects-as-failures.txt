@@ -1,0 +1,513 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building bff-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.6.0:check (validate) @ demo ---
+[INFO] Starting audit...
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\messaging\ClaimEventKafkaConsumer.java:15:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\messaging\ClaimEventKafkaConsumer.java:48:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\messaging\ClaimEventKafkaConsumer.java:65:13: '}' at column 13 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\messaging\ClaimEventKafkaConsumer.java:67:13: '}' at column 13 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\messaging\ClaimEventKafkaConsumer.java:70:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\messaging\ClaimEventKafkaConsumer.java:71: Line is longer than 120 characters (found 130). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\messaging\ClaimEventKafkaConsumer.java:108:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\messaging\ClaimEventKafkaConsumer.java:137:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminClaimResponseMapper.java:23:5: All overloaded methods should be placed next to each other. Placing non-overloaded methods in between overloaded methods with the same type is a violation. Previous overloaded method located at line '18'. [OverloadMethodsDeclarationOrder]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminClaimResponseMapper.java:24: Line is longer than 120 characters (found 128). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:22:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:58:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:73:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:92: Line is longer than 120 characters (found 130). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:96:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:106: Line is longer than 120 characters (found 121). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:110: Line is longer than 120 characters (found 126). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:115:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:125: Line is longer than 120 characters (found 134). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:134:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:156: Line is longer than 120 characters (found 129). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AdminController.java:158:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AuthController.java:28:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AuthController.java:97:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\AuthExceptionHandler.java:14:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\ClaimResponseMapper.java:13:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\ClaimsController.java:17:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\CsrfController.java:10:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\ErrorTypeConstants.java:8:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\filters\CorrelationIdFilter.java:64:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\web\SecurityExceptionHandler.java:11:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\websocket\ClaimWebSocketHandler.java:22:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\websocket\ClaimWebSocketHandler.java:138:21: '}' at column 21 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\websocket\ClaimWebSocketHandler.java:174:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\websocket\ClaimWebSocketHandler.java:178:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\websocket\ClaimWebSocketHandler.java:198:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\websocket\WebSocketAuthInterceptor.java:18:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\in\websocket\WebSocketAuthInterceptor.java:49:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:27:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:67:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:68: Line is longer than 120 characters (found 126). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:85:17: '}' at column 17 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:86: Line is longer than 120 characters (found 135). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:87: Line is longer than 120 characters (found 150). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:104:13: '}' at column 13 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:121:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:127:21: '}' at column 21 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:128: Line is longer than 120 characters (found 154). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:150:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:164:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\claimsservice\ClaimsServiceAdapter.java:176:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\keycloak\KeycloakAdminAdapter.java:19:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\keycloak\KeycloakTokenAdapter.java:16:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\keycloak\KeycloakTokenAdapter.java:73:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\keycloak\ServiceAccountTokenProviderImpl.java:14:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\adapter\out\security\AuthenticationFacadeImpl.java:16:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\AuthenticationFacade.java:5:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\ClaimsServicePort.java:26:102: '{' is not followed by whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\ClaimsServicePort.java:26:103: '}' is not preceded with whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\ClaimsServicePort.java:30:76: '{' is not followed by whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\ClaimsServicePort.java:30:77: '}' is not preceded with whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\ClaimsServicePort.java:33:96: '{' is not followed by whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\ClaimsServicePort.java:33:97: '}' is not preceded with whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\InvalidCredentialsException.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\KeycloakTokenPort.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\KeycloakTokenPort.java:11:104: '{' is not followed by whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\KeycloakTokenPort.java:11:105: '}' is not preceded with whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LoginUseCase.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LoginUseCaseImpl.java:11:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LoginUseCaseImpl.java:51:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LoginUseCaseImpl.java:78:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LoginUseCaseImpl.java:102:72: '{' is not followed by whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LoginUseCaseImpl.java:102:73: '}' is not preceded with whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LoginUseCaseImpl.java:115:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LogoutUseCase.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LogoutUseCaseImpl.java:7:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LogoutUseCaseImpl.java:23:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\LogoutUseCaseImpl.java:23:11: Catching 'RuntimeException' is not allowed. [IllegalCatch]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\NoRoleException.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\RefreshTokenUseCase.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\RefreshTokenUseCaseImpl.java:5:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\ServiceAccountTokenProvider.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\SignupUseCase.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\SignupUseCaseImpl.java:5:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\UnauthenticatedException.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\application\auth\UserAlreadyExistsException.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\BffServiceApplication.java:7:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\BffServiceApplication.java:7:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\BffServiceApplication.java:10:1: Line contains a tab character. [FileTabCharacter]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\BffServiceApplication.java:11:1: Line contains a tab character. [FileTabCharacter]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\BffServiceApplication.java:12:1: Line contains a tab character. [FileTabCharacter]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\config\CookieAuthenticationFilter.java:51:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\config\JacksonConfig.java:9:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\config\KeycloakConfig.java:9:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\config\SecurityConfig.java:33:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\config\WebSocketConfig.java:13:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\src\main\java\com\example\demo\config\ZipkinConfig.java:10:1: Missing a Javadoc comment. [MissingJavadocType]
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.11:prepare-agent (prepare-agent) @ demo ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- openapi-generator:7.14.0:generate (generate-bff-api) @ demo ---
+[INFO] Generating with dryRun=false
+[INFO] OpenAPI Generator: spring (server)
+[INFO] Generator 'spring' is considered stable.
+[INFO] ----------------------------------
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Invoker Package Name, originally not set, is now derived from api package name: com.example.bff.adapter.in.web
+[INFO] Processing operation signup
+[INFO] Processing operation login
+[INFO] Processing operation refresh
+[INFO] Processing operation logout
+[INFO] Processing operation listClaims
+[INFO] Processing operation submitClaim
+[INFO] Processing operation getClaim
+[INFO] Processing operation getDashboardStats
+[INFO] Processing operation flushDashboardCache
+[INFO] Processing operation listAllUsers
+[INFO] Processing operation listAllClaims
+[INFO] Processing operation updateClaimStatus
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\ClaimResponseDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\ClaimStatusDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\ClaimSummaryResponseDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\DashboardStatsResponseDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\LoginRequestDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\ProblemDetailDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\SignupRequestDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\SubmitClaimRequestDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\UpdateClaimStatusRequestDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\UserResponseDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\model\UserRoleDTO.java
+[WARNING] Ignoring complex example on request body
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\AdminDashboardApi.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\AuthenticationApi.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\ClaimsApi.java
+[INFO] Skipping generation of Webhooks.
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\pom.xml
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\README.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\com\example\bff\adapter\in\web\generated\ApiUtil.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\src\main\java\org\openapitools\configuration\EnumConverterConfiguration.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\.openapi-generator\VERSION
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi\.openapi-generator\FILES
+############################################################################################
+# Thanks for using OpenAPI Generator.                                                      #
+# We appreciate your support! Please consider donation to help us maintain this project.   #
+# https://opencollective.com/openapi_generator/donate                                      #
+############################################################################################
+[INFO] 
+[INFO] --- openapi-generator:7.14.0:generate (generate-claims-client) @ demo ---
+[INFO] Generating with dryRun=false
+[INFO] OpenAPI Generator: java (client)
+[INFO] Generator 'java' is considered stable.
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Invoker Package Name, originally not set, is now derived from api package name: com.example.bff.adapter.out.claims
+[INFO] Processing operation listAllUsers
+[INFO] Processing operation createUser
+[INFO] Processing operation getUser
+[INFO] Processing operation listClaims
+[INFO] Processing operation createClaim
+[INFO] Processing operation getClaim
+[INFO] Processing operation updateClaim
+[INFO] Processing operation getDashboardStats
+[INFO] Processing operation flushDashboardCache
+[INFO] Processing operation listAllClaims
+[INFO] Processing operation updateClaimStatus
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\AdminClaimResponseDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\AdminClaimResponseDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\AdminClaimResponseDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\ClaimResponseDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\ClaimResponseDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\ClaimResponseDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\ClaimStatusDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\ClaimStatusDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\ClaimStatusDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\ClaimSummaryResponseDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\ClaimSummaryResponseDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\ClaimSummaryResponseDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\CreateClaimRequestDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\CreateClaimRequestDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\CreateClaimRequestDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\CreateUserRequestDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\CreateUserRequestDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\CreateUserRequestDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\DashboardStatsResponseDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\DashboardStatsResponseDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\DashboardStatsResponseDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\ProblemDetailDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\ProblemDetailDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\ProblemDetailDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\UpdateClaimRequestDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\UpdateClaimRequestDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\UpdateClaimRequestDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\UpdateClaimStatusRequestDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\UpdateClaimStatusRequestDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\UpdateClaimStatusRequestDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\UserResponseDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\UserResponseDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\UserResponseDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\UserRoleDTO.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\model\UserRoleDTOTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\UserRoleDTO.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\AdminClaimsApi.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\AdminClaimsApiTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\AdminClaimsApi.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\ClaimsApi.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\ClaimsApiTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\ClaimsApi.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\DashboardApi.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\DashboardApiTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\DashboardApi.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\UsersApi.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\test\java\com\example\bff\adapter\out\claims\generated\UsersApiTest.java (Test files never overwrite an existing file of the same name.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\docs\UsersApi.md
+[INFO] Skipping generation of Webhooks.
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\pom.xml
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\README.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\build.gradle
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\build.sbt
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\settings.gradle
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\gradle.properties
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\AndroidManifest.xml
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\.travis.yml
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\ApiClient.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\ServerConfiguration.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\ServerVariable.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\.github\workflows\maven.yml
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\api\openapi.yaml
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\StringUtil.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\auth\HttpBasicAuth.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\auth\HttpBearerAuth.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\auth\ApiKeyAuth.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\gradlew
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\gradlew.bat
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\gradle\wrapper\gradle-wrapper.properties
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\gradle\wrapper\gradle-wrapper.jar
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\git_push.sh
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\.gitignore
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\ApiException.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\Configuration.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\Pair.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\auth\Authentication.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\ApiCallback.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\ApiResponse.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\JSON.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\ProgressRequestBody.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\ProgressResponseBody.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\GzipRequestInterceptor.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\generated\model\AbstractOpenApiSchema.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\.openapi-generator\VERSION
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\.openapi-generator\FILES
+############################################################################################
+# Thanks for using OpenAPI Generator.                                                      #
+# We appreciate your support! Please consider donation to help us maintain this project.   #
+# https://opencollective.com/openapi_generator/donate                                      #
+############################################################################################
+[INFO] 
+[INFO] --- exec:3.1.0:exec (generate-asyncapi-schemas) @ demo ---
+[INFO] skipping execute as per configuration
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ demo ---
+[INFO] Copying 7 resources from src\main\resources to target\classes
+[INFO] Copying 6 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 104 source files with javac [debug parameters release 21] to target\classes
+[INFO] /C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/bff-service/target/generated-sources/openapi-claims-client/src/main/java/com/example/bff/adapter/out/claims/JSON.java: C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\generated-sources\openapi-claims-client\src\main\java\com\example\bff\adapter\out\claims\JSON.java uses or overrides a deprecated API.
+[INFO] /C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/bff-service/target/generated-sources/openapi-claims-client/src/main/java/com/example/bff/adapter/out/claims/JSON.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- exec:3.1.0:exec (generate-wiremock-stubs-claims-service) @ demo ---
+[INFO] skipping execute as per configuration
+[INFO] 
+[INFO] --- exec:3.1.0:exec (generate-postman-collection) @ demo ---
+[INFO] skipping execute as per configuration
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demo ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ demo ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 43 source files with javac [debug parameters release 21] to target\test-classes
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ demo ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.demo.adapter.out.claimsservice.ClaimsServiceAdapterConcurrencyTest
+[INFO] Running com.example.demo.adapter.in.messaging.ClaimEventCdcContractTest
+mvn : Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases 
+of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: 
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+At line:1 char:1198
++ ... e.Trim() }; mvn test "-Dtest=ClaimsServiceAdapterConcurrencyTest,Clai ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Mockito is curr...ockito.html#0.3:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: A Java agent has been loaded dynamically 
+(C:\Users\Archit\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has 
+been appended
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of 
+the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: 
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has 
+been appended
+WARNING: A Java agent has been loaded dynamically 
+(C:\Users\Archit\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+07:50:04.875 [main] ERROR com.example.demo.adapter.in.messaging.ClaimEventKafkaConsumer -- Failed to process CDC event from cdc.demo-app.public.claims topic: Unexpected character ('t' (code 116)): was expecting double-quote to start field name
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 3]
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('t' (code 116)): was expecting double-quote to start field name
+ at [Source: REDACTED (`StreamReadFeature.INCLUDE_SOURCE_IN_LOCATION` disabled); line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructReadException(JsonParser.java:2675)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:743)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddName(ReaderBasedJsonParser.java:1909)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:939)
+	at com.fasterxml.jackson.databind.deser.std.BaseNodeDeserializer._deserializeContainerNoRecursion(JsonNodeDeserializer.java:535)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:99)
+	at com.fasterxml.jackson.databind.deser.std.JsonNodeDeserializer.deserialize(JsonNodeDeserializer.java:24)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:342)
+	at com.fasterxml.jackson.databind.ObjectMapper._readTreeAndClose(ObjectMapper.java:5080)
+	at com.fasterxml.jackson.databind.ObjectMapper.readTree(ObjectMapper.java:3349)
+	at com.example.demo.adapter.in.messaging.ClaimEventKafkaConsumer.consumeCdcEvent(ClaimEventKafkaConsumer.java:60)
+	at com.example.demo.adapter.in.messaging.ClaimEventCdcContractTest.should_SurviveAMalformedMessage_WithoutBroadcastingAnything(ClaimEventCdcContractTest.java:70)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:701)
+	at org.junit.platform.commons.support.ReflectionSupport.invokeMethod(ReflectionSupport.java:502)
+	at org.junit.jupiter.engine.support.MethodReflectionUtils.invoke(MethodReflectionUtils.java:45)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:61)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:163)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:148)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:86)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(InterceptingExecutableInvoker.java:123)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.lambda$invoke$0(InterceptingExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:99)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:66)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:47)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:39)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invoke(InterceptingExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.execution.InterceptingExecutableInvoker.invokeVoid(InterceptingExecutableInvoker.java:71)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$0(TestMethodTestDescriptor.java:219)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:215)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:157)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:70)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:176)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:42)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$2(NodeTestTask.java:180)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$1(NodeTestTask.java:166)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:138)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$0(NodeTestTask.java:164)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:74)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:163)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:116)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:36)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:52)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:58)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.executeEngine(EngineExecutionOrchestrator.java:246)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.failOrExecuteEngine(EngineExecutionOrchestrator.java:218)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:179)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:66)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:157)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:65)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:125)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at org.junit.platform.launcher.core.InterceptingLauncher.lambda$execute$2(InterceptingLauncher.java:57)
+	at org.junit.platform.launcher.core.ClasspathAlignmentCheckingLauncherInterceptor.intercept(ClasspathAlignmentCheckingLauncherInterceptor.java:25)
+	at org.junit.platform.launcher.core.InterceptingLauncher.execute(InterceptingLauncher.java:56)
+	at org.junit.platform.launcher.core.DelegatingLauncher.execute(DelegatingLauncher.java:58)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.apache.maven.surefire.api.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:125)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.executeWithCancellationToken(LauncherAdapter.java:68)
+	at org.apache.maven.surefire.junitplatform.LauncherAdapter.execute(LauncherAdapter.java:54)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.lambda$execute$2(JUnitPlatformProvider.java:207)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:205)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:168)
+	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:132)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.184 s <<< FAILURE! -- in com.example.demo.adapter.in.messaging.ClaimEventCdcContractTest
+[ERROR] com.example.demo.adapter.in.messaging.ClaimEventCdcContractTest.should_ReadTheClaimId_When_EventComesFromTheClaimsServiceTestEndpoint -- Time elapsed: 0.034 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: 
+
+expected: "5f2c1f44-8a0e-4b7e-9d1c-0f6a2f3b9c11"
+ but was: ""
+	at com.example.demo.adapter.in.messaging.ClaimEventCdcContractTest.should_ReadTheClaimId_When_EventComesFromTheClaimsServiceTestEndpoint(ClaimEventCdcContractTest.java:87)
+
+07:50:05.014 [main] INFO org.springframework.kafka.test.junit.GlobalEmbeddedKafkaTestExecutionListener -- Stopped global Embedded Kafka.
+[ERROR] Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.421 s <<< FAILURE! -- in com.example.demo.adapter.out.claimsservice.ClaimsServiceAdapterConcurrencyTest
+[ERROR] com.example.demo.adapter.out.claimsservice.ClaimsServiceAdapterConcurrencyTest.should_SendEachUsersOwnTokenUpstream_When_TwoUsersSubmitConcurrently -- Time elapsed: 0.251 s <<< FAILURE!
+java.lang.AssertionError: 
+[requests that reached the claims service carrying another user's token] 
+Expecting empty but was: ["sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-alice but upstream saw Bearer token-of-bob"]
+	at com.example.demo.adapter.out.claimsservice.ClaimsServiceAdapterConcurrencyTest.should_SendEachUsersOwnTokenUpstream_When_TwoUsersSubmitConcurrently(ClaimsServiceAdapterConcurrencyTest.java:85)
+
+07:50:06.149 [main] INFO org.springframework.kafka.test.junit.GlobalEmbeddedKafkaTestExecutionListener -- Stopped global Embedded Kafka.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ClaimEventCdcContractTest.should_ReadTheClaimId_When_EventComesFromTheClaimsServiceTestEndpoint:87 
+expected: "5f2c1f44-8a0e-4b7e-9d1c-0f6a2f3b9c11"
+ but was: ""
+[ERROR]   ClaimsServiceAdapterConcurrencyTest.should_SendEachUsersOwnTokenUpstream_When_TwoUsersSubmitConcurrently:85 [requests that reached the claims service carrying another user's token] 
+Expecting empty but was: ["sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-bob but upstream saw Bearer token-of-alice",
+    "sent token-of-alice but upstream saw Bearer token-of-bob",
+    "sent token-of-alice but upstream saw Bearer token-of-bob"]
+[INFO] 
+[ERROR] Tests run: 7, Failures: 2, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  48.715 s
+[INFO] Finished at: 2026-11-25T07:50:06+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.4:test (default-test) on project demo: There are test failures.
+[ERROR] 
+[ERROR] See C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\bff-service\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

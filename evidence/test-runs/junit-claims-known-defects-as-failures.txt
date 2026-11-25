@@ -1,0 +1,225 @@
+﻿[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.example:demo >--------------------------
+[INFO] Building claims-service 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- checkstyle:3.6.0:check (validate) @ demo ---
+[INFO] Starting audit...
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\AdminClaimsController.java:122:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\AdminClaimsController.java:124:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\AdminClaimsController.java:126:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\AdminClaimsController.java:155:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\ClaimController.java:31:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\ClaimExceptionHandler.java:12:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\ClaimWebMapper.java:15:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\DashboardController.java:49:13: '}' at column 13 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\DashboardController.java:53:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\ErrorTypeConstants.java:8:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\filters\CorrelationIdFilter.java:64:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\MockCDCEventRequest.java:18: Line is longer than 120 characters (found 135). [LineLength]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\MockCDCEventRequest.java:22:3: '{' is not followed by whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\MockCDCEventRequest.java:22:4: '}' is not preceded with whitespace. [WhitespaceAround]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\TestEventController.java:38:115: '+' should be on a new line. [OperatorWrap]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\in\web\UserController.java:27:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\cache\DashboardStatsCache.java:43:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\cache\DashboardStatsCache.java:43:11: Catching 'RuntimeException' is not allowed. [IllegalCatch]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\cache\DashboardStatsCache.java:59:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\cache\DashboardStatsCache.java:59:11: Catching 'RuntimeException' is not allowed. [IllegalCatch]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\cache\DashboardStatsCache.java:73:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\cache\DashboardStatsCache.java:73:11: Catching 'RuntimeException' is not allowed. [IllegalCatch]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\DomainEventListener.java:10:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaDomainEventPublisher.java:16:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaDomainEventPublisher.java:53:13: '}' at column 13 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaDomainEventPublisher.java:63:13: '}' at column 13 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaDomainEventPublisher.java:68:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaDomainEventPublisher.java:74:9: 'if' construct must use '{}'s. [NeedBraces]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaDomainEventPublisher.java:75:9: 'if' construct must use '{}'s. [NeedBraces]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaDomainEventPublisher.java:80:9: 'if' construct must use '{}'s. [NeedBraces]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaDomainEventPublisher.java:81:9: 'if' construct must use '{}'s. [NeedBraces]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaDomainEventPublisher.java:86:9: 'if' construct must use '{}'s. [NeedBraces]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaDomainEventPublisher.java:87:9: 'if' construct must use '{}'s. [NeedBraces]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaMessageSchemaValidator.java:22:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaMessageSchemaValidator.java:56:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaMessageSchemaValidator.java:72:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\messaging\KafkaMessageValidationException.java:3:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\persistence\ClaimEntity.java:21:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\persistence\ClaimJpaRepository.java:10:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\adapter\out\persistence\ClaimPersistenceMapper.java:6:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\application\exceptions\UnauthorizedClaimAccessException.java:5:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\application\exceptions\UserNotFoundException.java:5:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\application\usecases\CreateClaimUseCase.java:19:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\application\usecases\CreateClaimUseCase.java:51:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\application\usecases\ListAllClaimsUseCase.java:35:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\application\usecases\ListAllClaimsUseCase.java:37:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\application\usecases\ListAllClaimsUseCase.java:39:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\application\usecases\UpdateClaimStatusUseCase.java:20:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\application\usecases\UpdateClaimStatusUseCase.java:54:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\ClaimsServiceApplication.java:6:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\ClaimsServiceApplication.java:6:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\ClaimsServiceApplication.java:9:1: Line contains a tab character. [FileTabCharacter]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\ClaimsServiceApplication.java:10:1: Line contains a tab character. [FileTabCharacter]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\ClaimsServiceApplication.java:11:1: Line contains a tab character. [FileTabCharacter]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\config\JacksonConfig.java:9:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\config\RequestLoggingFilter.java:3:23: Using the '.*' form of import should be avoided - jakarta.servlet.*. [AvoidStarImport]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\config\RequestLoggingFilter.java:13:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\config\RequestLoggingFilter.java:50:9: '}' at column 9 should be alone on a line. [RightCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\config\ZipkinConfig.java:10:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:15:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:55:25: More than 7 parameters (found 9). [ParameterNumber]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:72:5: Constructor definition in wrong order. [DeclarationOrder]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:148:30: '{' at column 30 should have line break after. [LeftCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:149:29: '{' at column 29 should have line break after. [LeftCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:150:40: '{' at column 40 should have line break after. [LeftCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:151:41: '{' at column 41 should have line break after. [LeftCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:152:36: '{' at column 36 should have line break after. [LeftCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:153:40: '{' at column 40 should have line break after. [LeftCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:154:36: '{' at column 36 should have line break after. [LeftCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:155:35: '{' at column 35 should have line break after. [LeftCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\Claim.java:156:35: '{' at column 35 should have line break after. [LeftCurly]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\domain\claim\ClaimRepository.java:8:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\user\adapter\out\persistence\UserJpaEntity.java:19:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\user\adapter\out\persistence\UserJpaRepository.java:11:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\user\adapter\out\persistence\UserPersistenceMapper.java:11:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\user\adapter\out\persistence\UserRepositoryAdapter.java:12:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\user\domain\DomainEvent.java:5:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\user\domain\User.java:12:1: Missing a Javadoc comment. [MissingJavadocType]
+[WARN] C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\main\java\com\example\demo\user\domain\UserRepository.java:6:1: Missing a Javadoc comment. [MissingJavadocType]
+Audit done.
+[INFO] You have 0 Checkstyle violations.
+[INFO] 
+[INFO] --- jacoco:0.8.11:prepare-agent (prepare-agent) @ demo ---
+[INFO] Skipping JaCoCo execution because property jacoco.skip is set.
+[INFO] argLine set to empty
+[INFO] 
+[INFO] --- openapi-generator:7.14.0:generate (generate-claims-api) @ demo ---
+[INFO] Generating with dryRun=false
+[INFO] OpenAPI Generator: spring (server)
+[INFO] Generator 'spring' is considered stable.
+[INFO] ----------------------------------
+[INFO] Environment variable JAVA_POST_PROCESS_FILE not defined so the Java code may not be properly formatted. To define it, try 'export JAVA_POST_PROCESS_FILE="/usr/local/bin/clang-format -i"' (Linux/Mac)
+[INFO] NOTE: To enable file post-processing, 'enablePostProcessFile' must be set to `true` (--enable-post-process-file for CLI).
+[INFO] Invoker Package Name, originally not set, is now derived from api package name: com.example.claims.adapter.in.web
+[INFO] Processing operation listAllUsers
+[INFO] Processing operation createUser
+[INFO] Processing operation getUser
+[INFO] Processing operation listClaims
+[INFO] Processing operation createClaim
+[INFO] Processing operation getClaim
+[INFO] Processing operation updateClaim
+[INFO] Processing operation getDashboardStats
+[INFO] Processing operation flushDashboardCache
+[INFO] Processing operation listAllClaims
+[INFO] Processing operation updateClaimStatus
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\AdminClaimResponseDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\ClaimResponseDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\ClaimStatusDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\ClaimSummaryResponseDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\CreateClaimRequestDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\CreateUserRequestDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\DashboardStatsResponseDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\ProblemDetailDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\UpdateClaimRequestDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\UpdateClaimStatusRequestDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\UserResponseDTO.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\model\UserRoleDTO.java
+[WARNING] Ignoring complex example on request body
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\AdminClaimsApi.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\ClaimsApi.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\DashboardApi.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\UsersApi.java
+[INFO] Skipping generation of Webhooks.
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\pom.xml
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\README.md
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\com\example\claims\adapter\in\web\generated\ApiUtil.java
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\src\main\java\org\openapitools\configuration\EnumConverterConfiguration.java
+[INFO] Skipped C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\.openapi-generator-ignore (Skipped by supportingFiles options supplied by user.)
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\.openapi-generator\VERSION
+[INFO] writing file C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\generated-sources\openapi-claims\.openapi-generator\FILES
+############################################################################################
+# Thanks for using OpenAPI Generator.                                                      #
+# We appreciate your support! Please consider donation to help us maintain this project.   #
+# https://opencollective.com/openapi_generator/donate                                      #
+############################################################################################
+[INFO] 
+[INFO] --- exec:3.1.0:exec (generate-asyncapi-schemas) @ demo ---
+[INFO] skipping execute as per configuration
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ demo ---
+[INFO] Copying 5 resources from src\main\resources to target\classes
+[INFO] Copying 9 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 81 source files with javac [debug parameters release 21] to target\classes
+[INFO] 
+[INFO] --- exec:3.1.0:exec (generate-postman-collection) @ demo ---
+[INFO] skipping execute as per configuration
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ demo ---
+[INFO] Copying 2 resources from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ demo ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 51 source files with javac [debug parameters release 21] to target\test-classes
+[INFO] /C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/claims-service/src/test/java/com/example/demo/adapter/out/persistence/ClaimRepositoryIntegrationTest.java: C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\src\test\java\com\example\demo\adapter\out\persistence\ClaimRepositoryIntegrationTest.java uses or overrides a deprecated API.
+[INFO] /C:/Users/Archit/Downloads/Assignment/demo-app-qa-main/code/claims-service/src/test/java/com/example/demo/adapter/out/persistence/ClaimRepositoryIntegrationTest.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ demo ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.example.demo.adapter.in.web.ClaimExceptionHandlerCoverageTest
+mvn : Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases 
+of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: 
+https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+At line:2 char:321
++ ... e.Trim() }; mvn test "-Dtest=ClaimExceptionHandlerCoverageTest" "-Dqa ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Mockito is curr...ockito.html#0.3:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+WARNING: A Java agent has been loaded dynamically 
+(C:\Users\Archit\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has 
+been appended
+[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.787 s <<< FAILURE! -- in com.example.demo.adapter.in.web.ClaimExceptionHandlerCoverageTest
+[ERROR] com.example.demo.adapter.in.web.ClaimExceptionHandlerCoverageTest.should_TranslateInvalidStatusTransitionToAClientError -- Time elapsed: 2.409 s <<< FAILURE!
+java.lang.AssertionError: 
+[InvalidStatusTransitionException needs a handler, otherwise the API answers 500] 
+Expecting actual not to be null
+	at com.example.demo.adapter.in.web.ClaimExceptionHandlerCoverageTest.should_TranslateInvalidStatusTransitionToAClientError(ClaimExceptionHandlerCoverageTest.java:72)
+
+07:51:39.420 [main] INFO org.springframework.kafka.test.junit.GlobalEmbeddedKafkaTestExecutionListener -- Stopped global Embedded Kafka.
+[INFO] 
+[INFO] Results:
+[INFO] 
+[ERROR] Failures: 
+[ERROR]   ClaimExceptionHandlerCoverageTest.should_TranslateInvalidStatusTransitionToAClientError:72 [InvalidStatusTransitionException needs a handler, otherwise the API answers 500] 
+Expecting actual not to be null
+[INFO] 
+[ERROR] Tests run: 5, Failures: 1, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  44.525 s
+[INFO] Finished at: 2026-11-25T07:51:39+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:3.5.4:test (default-test) on project demo: There are test failures.
+[ERROR] 
+[ERROR] See C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\claims-service\target\surefire-reports for the individual test results.
+[ERROR] See dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException

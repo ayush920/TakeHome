@@ -89,3 +89,18 @@ are sensitive to load. Docker port forwarding sometimes resets connections and K
 stall (F-13), so some E2E tests fail or time out intermittently. `navigate()` retries dropped connections,
 assertions wait up to 30 s and the project retries once. A failure here should be re-run before it is
 treated as an application defect. Run API and component suites first; they are the stable evidence.
+
+## Backend JUnit tests
+
+New tests in the two Spring services use a @KnownDefect("F-xx") marker (assertion failures are reported as aborted, a fix fails the test with a reminder to remove the marker; -Dqa.knownDefects=fail shows raw failures).
+
+| Test | Risk |
+|---|---|
+| claims-service ClaimExceptionHandlerCoverageTest | Every business exception maps to a deliberate status; InvalidStatusTransitionException has none (F-04) |
+| bff-service ClaimsServiceAdapterConcurrencyTest | Real generated ApiClient against an in-process server: concurrent users get each other's token (F-03) |
+| bff-service ClaimEventCdcContractTest | Debezium-shaped events are understood; the claims-service test endpoint's payload is not (F-11) |
+
+```bash
+(cd code/claims-service && mvn test -Dtest=ClaimExceptionHandlerCoverageTest)
+(cd code/bff-service && mvn test -Dtest='ClaimsServiceAdapterConcurrencyTest,ClaimEventCdcContractTest')
+```
