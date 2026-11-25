@@ -1,4 +1,4 @@
-﻿import { execFileSync } from 'node:child_process';
+import { execFileSync } from 'node:child_process';
 import { TEST_DATA_PREFIX } from '../tests/support/config';
 
 const POSTGRES_CONTAINER = process.env.QA_POSTGRES_CONTAINER ?? 'demo-postgres';

@@ -1,4 +1,4 @@
-﻿import { test, expect } from '../support/fixtures';
+import { test, expect } from '../support/fixtures';
 import { knownDefect } from '../support/known-defect';
 import { buildClaimRequest, type Claim } from '../support/claim-data';
 import { ENDPOINTS, HTTP } from '../support/config';

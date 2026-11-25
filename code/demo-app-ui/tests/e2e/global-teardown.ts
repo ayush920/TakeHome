@@ -1,4 +1,4 @@
-﻿import { cleanupTestData } from '../../scripts/cleanup-test-data';
+import { cleanupTestData } from '../../scripts/cleanup-test-data';
 
 /** Removes the claims and users created by the run. Disable with QA_KEEP_DATA=1 to inspect them. */
 export default async function globalTeardown(): Promise<void> {

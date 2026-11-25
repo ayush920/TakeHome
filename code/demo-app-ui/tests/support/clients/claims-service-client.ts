@@ -1,4 +1,4 @@
-﻿import type { APIRequestContext } from '@playwright/test';
+import type { APIRequestContext } from '@playwright/test';
 import type { Playwright } from './playwright-type';
 import { STACK } from '../config';
 import { BaseHttpClient } from './http-client';

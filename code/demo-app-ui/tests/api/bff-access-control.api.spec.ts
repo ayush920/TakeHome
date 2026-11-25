@@ -1,4 +1,4 @@
-﻿import { test, expect } from '../support/fixtures';
+import { test, expect } from '../support/fixtures';
 import { buildClaimRequest, submitClaim } from '../support/claim-data';
 import { BffClient } from '../support/clients/bff-client';
 import { ENDPOINTS, HTTP } from '../support/config';

@@ -1,4 +1,4 @@
-﻿import type { Playwright } from './playwright-type';
+import type { Playwright } from './playwright-type';
 import { STACK, type Credentials } from '../config';
 import { TRANSPORT_RETRIES } from './http-client';
 

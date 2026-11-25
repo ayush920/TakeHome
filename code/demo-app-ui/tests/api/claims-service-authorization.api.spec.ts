@@ -1,4 +1,4 @@
-﻿import { randomUUID } from 'node:crypto';
+import { randomUUID } from 'node:crypto';
 import { test, expect } from '../support/fixtures';
 import { knownDefect } from '../support/known-defect';
 import { AnonymousClient } from '../support/clients/anonymous-client';
