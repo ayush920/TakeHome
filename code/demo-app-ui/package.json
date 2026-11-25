@@ -13,7 +13,10 @@
     "mock:bff": "./scripts/start-wiremock.sh 8080",
     "test": "vitest run",
     "test:watch": "vitest",
-    "test:coverage": "vitest run --coverage"
+    "test:coverage": "vitest run --coverage",
+    "test:api": "playwright test --project=api",
+    "test:e2e": "playwright test --project=e2e",
+    "test:cleanup": "npx tsx scripts/cleanup-test-data.ts"
   },
   "dependencies": {
     "@base-ui-components/react": "^1.0.0-rc.0",
@@ -41,6 +44,7 @@
     "jose": "^6.1.3",
     "jsdom": "^28.1.0",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5",
     "vitest": "^4.0.18"
   }
