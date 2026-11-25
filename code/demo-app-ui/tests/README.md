@@ -65,3 +65,27 @@ QA_KNOWN_DEFECTS=fail npm run test:component  # show F-05 / F-10 as real failure
 
 `tests/setup.ts` provides an in-memory `localStorage` when Node's experimental global shadows jsdom's
 (Node 22+); without it every store using zustand `persist` crashes under the supplied test runner.
+
+## End-to-end tests (Playwright, browser)
+
+`tests/e2e/*.e2e.spec.ts` drive the real UI against the running stack using page objects in
+`e2e/pages/` and signed-in browser fixtures in `e2e/support/fixtures.ts` (session cookies from an API
+login plus the UI's persisted auth state, so journeys do not each pay for a login). Uses installed Chrome
+(`QA_BROWSER_CHANNEL` to change).
+
+```bash
+npm run test:e2e      # one worker: the dev-mode UI and the small Docker VM cannot take more
+```
+
+| Spec | Journey |
+|---|---|
+| `authentication` | Login as claimant/admin, bad credentials, route guard, admin page turned away, no-JS login (F-12, known defect) |
+| `claim-submission` | Wizard to list, future date refused, claimants only see their own claims |
+| `admin-claim-review` | Admin changes status and the claimant sees it, closed claim has no actions, cancel leaves it unchanged |
+| `realtime-updates` | Open page updates without reload (F-06, known defect) |
+
+**Stability caveat (honest):** on this Docker VM (about 3.7 GiB for nine containers) the browser tests
+are sensitive to load. Docker port forwarding sometimes resets connections and Keycloak-backed calls can
+stall (F-13), so some E2E tests fail or time out intermittently. `navigate()` retries dropped connections,
+assertions wait up to 30 s and the project retries once. A failure here should be re-run before it is
+treated as an application defect. Run API and component suites first; they are the stable evidence.

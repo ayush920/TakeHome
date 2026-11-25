@@ -3,6 +3,10 @@ import { STACK } from '../support/config';
 const STARTUP_TIMEOUT_MS = 120_000;
 const POLL_INTERVAL_MS = 2_000;
 
+/** The UI container runs the Next.js dev server, which compiles each route on first visit (tens of seconds). */
+const UI_ROUTES_TO_WARM = ['/login', '/claims', '/claims/new', '/admin/claims', '/admin/dashboard'];
+const WARM_UP_TIMEOUT_MS = 90_000;
+
 const REQUIRED_ENDPOINTS: ReadonlyArray<{ name: string; url: string }> = [
   { name: 'claims-service', url: `${STACK.claimsServiceUrl}/actuator/health` },
   { name: 'bff-service', url: `${STACK.bffUrl}/actuator/health` },
@@ -38,4 +42,17 @@ export default async function globalSetup(): Promise<void> {
       `Stack is not ready: ${[...pending].join(', ')}. Start it first (see README: docker compose up).`,
     );
   }
+
+  await warmUpUiRoutes();
+}
+
+/** Best effort: a failed warm-up must not fail the run, the tests will surface any real problem. */
+async function warmUpUiRoutes(): Promise<void> {
+  await Promise.all(
+    UI_ROUTES_TO_WARM.map((route) =>
+      fetch(`${STACK.uiUrl}${route}`, { redirect: 'manual', signal: AbortSignal.timeout(WARM_UP_TIMEOUT_MS) }).catch(
+        () => undefined,
+      ),
+    ),
+  );
 }
