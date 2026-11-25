@@ -1,0 +1,875 @@
+﻿node.exe : (node:14484) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` 
+instead.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:14484) [D...oks()` instead.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-deprecation ...` to show where the warning was created)
+
+Running 64 tests using 2 workers
+
+(node:16796) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16796) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:9400) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:16796) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:9400) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [api] › tests\api\bff-access-control.api.spec.ts:13:7 › BFF access control › an unauthenticated caller cannot list claims (201ms)
+  ok  3 [api] › tests\api\bff-access-control.api.spec.ts:31:11 › BFF access control › a claimant session is kept out of admin functions › claimant is forbidden from /api/admin/claims (20ms)
+  ok  4 [api] › tests\api\bff-access-control.api.spec.ts:31:11 › BFF access control › a claimant session is kept out of admin functions › claimant is forbidden from /api/admin/dashboard/stats (33ms)
+  ok  5 [api] › tests\api\bff-access-control.api.spec.ts:39:7 › BFF access control › admin can reach the admin claim list (259ms)
+  ok  6 [api] › tests\api\bff-access-control.api.spec.ts:45:7 › BFF access control › a state-changing request without the CSRF header is refused (47ms)
+  ok  7 [api] › tests\api\bff-access-control.api.spec.ts:51:7 › BFF access control › a claimant sees their own claim in their list (249ms)
+  ok  2 [api] › tests\api\bff-access-control.api.spec.ts:19:7 › BFF access control › login with unknown credentials is rejected (4.9s)
+  ok  9 [api] › tests\api\claim-status-lifecycle.api.spec.ts:45:7 › claim status lifecycle (admin, through the BFF) › a new claim starts as SUBMITTED (32ms)
+  ok 10 [api] › tests\api\claim-status-lifecycle.api.spec.ts:53:11 › claim status lifecycle (admin, through the BFF) › allowed transitions are applied › SUBMITTED -> UNDER_REVIEW (182ms)
+  ok 11 [api] › tests\api\claim-status-lifecycle.api.spec.ts:53:11 › claim status lifecycle (admin, through the BFF) › allowed transitions are applied › SUBMITTED -> REJECTED (58ms)
+  ok 12 [api] › tests\api\claim-status-lifecycle.api.spec.ts:53:11 › claim status lifecycle (admin, through the BFF) › allowed transitions are applied › UNDER_REVIEW -> SUBMITTED (80ms)
+  ok 13 [api] › tests\api\claim-status-lifecycle.api.spec.ts:53:11 › claim status lifecycle (admin, through the BFF) › allowed transitions are applied › UNDER_REVIEW -> APPROVED (91ms)
+  ok 14 [api] › tests\api\claim-status-lifecycle.api.spec.ts:53:11 › claim status lifecycle (admin, through the BFF) › allowed transitions are applied › UNDER_REVIEW -> REJECTED (93ms)
+  ok 15 [api] › tests\api\claim-status-lifecycle.api.spec.ts:53:11 › claim status lifecycle (admin, through the BFF) › allowed transitions are applied › APPROVED -> CLOSED (142ms)
+  ok 16 [api] › tests\api\claim-status-lifecycle.api.spec.ts:53:11 › claim status lifecycle (admin, through the BFF) › allowed transitions are applied › REJECTED -> CLOSED (469ms)
+  x  17 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › SUBMITTED -> SUBMITTED (290ms)
+(node:4376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4376) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:4376) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  18 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › SUBMITTED -> APPROVED (348ms)
+(node:22768) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22768) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:22768) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  19 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › SUBMITTED -> CLOSED (270ms)
+(node:22544) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22544) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:22544) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  20 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › UNDER_REVIEW -> UNDER_REVIEW (372ms)
+(node:21044) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21044) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:21044) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  21 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › UNDER_REVIEW -> CLOSED (332ms)
+(node:22944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22944) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:22944) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x   8 [api] › tests\api\claim-ownership-under-load.api.spec.ts:39:7 › claim ownership when two users submit at the same time › every claim is stored under the user who submitted it (33.4s)
+(node:10628) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:10628) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:10628) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  23 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> UNDER_REVIEW (307ms)
+  x  22 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> SUBMITTED (730ms)
+(node:24088) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5596) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5596) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:5596) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24088) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:24088) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  24 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> APPROVED (701ms)
+  x  25 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> REJECTED (254ms)
+(node:17636) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5960) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:17636) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:17636) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5960) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:5960) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  26 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> SUBMITTED (609ms)
+(node:22300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  27 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> UNDER_REVIEW (738ms)
+(node:6012) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22300) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:22300) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:6012) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:6012) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  28 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> APPROVED (455ms)
+  x  29 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> REJECTED (157ms)
+(node:3264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:3264) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:3264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:24248) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:24248) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  31 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> UNDER_REVIEW (446ms)
+(node:2892) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  30 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> SUBMITTED (683ms)
+(node:12228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2892) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:2892) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:12228) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:12228) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  32 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> APPROVED (998ms)
+  x  33 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> REJECTED (512ms)
+(node:7912) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15980) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7912) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:7912) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:15980) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:15980) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  34 [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> CLOSED (390ms)
+  ok 35 [api] › tests\api\claim-status-lifecycle.api.spec.ts:81:11 › claim status lifecycle (admin, through the BFF) › a refused transition leaves the claim unchanged › SUBMITTED -> APPROVED (804ms)
+  ok 36 [api] › tests\api\claim-status-lifecycle.api.spec.ts:81:11 › claim status lifecycle (admin, through the BFF) › a refused transition leaves the claim unchanged › CLOSED -> SUBMITTED (595ms)
+  ok 37 [api] › tests\api\claim-status-lifecycle.api.spec.ts:93:7 › claim status lifecycle (admin, through the BFF) › a claimant cannot change a claim status (104ms)
+  ok 38 [api] › tests\api\claim-validation-and-errors.api.spec.ts:12:7 › claim submission through the BFF › a valid claim is created and owned by the submitting user (148ms)
+  ok 39 [api] › tests\api\claim-validation-and-errors.api.spec.ts:20:7 › claim submission through the BFF › an amount above the maximum is rejected with a validation error (97ms)
+  x  40 [api] › tests\api\claim-validation-and-errors.api.spec.ts:39:11 › claim submission through the BFF › invalid input must be a client error, not a server error › rejects an incident date in the future (229ms)
+(node:4608) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22060) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4608) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:4608) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22060) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:22060) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 41 [api] › tests\api\claim-status-lifecycle.api.spec.ts:81:11 › claim status lifecycle (admin, through the BFF) › a refused transition leaves the claim unchanged › APPROVED -> REJECTED (441ms)
+  ok 43 [api] › tests\api\claim-validation-and-errors.api.spec.ts:51:7 › reading a claim through the BFF › an owner can read their own claim (72ms)
+  x  44 [api] › tests\api\claim-validation-and-errors.api.spec.ts:59:7 › reading a claim through the BFF › an unknown claim id returns 404 (45ms)
+  x  42 [api] › tests\api\claim-validation-and-errors.api.spec.ts:39:11 › claim submission through the BFF › invalid input must be a client error, not a server error › rejects a description that is only padding around a few characters (81ms)
+(node:4532) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22548) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:4532) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:4532) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22548) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:22548) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 46 [api] › tests\api\claims-service-authorization.api.spec.ts:14:9 › claims-service authorization (called directly with a bearer token) › controls: the endpoints work for the right caller › admin can list every claim (357ms)
+  ok 47 [api] › tests\api\claims-service-authorization.api.spec.ts:19:9 › claims-service authorization (called directly with a bearer token) › controls: the endpoints work for the right caller › admin can list users (29ms)
+  ok 48 [api] › tests\api\claims-service-authorization.api.spec.ts:24:9 › claims-service authorization (called directly with a bearer token) › controls: the endpoints work for the right caller › claimant can list their own claims (99ms)
+  x  49 [api] › tests\api\claims-service-authorization.api.spec.ts:38:11 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading the list of all claims (67ms)
+  x  45 [api] › tests\api\claim-validation-and-errors.api.spec.ts:67:7 › reading a claim through the BFF › another user's claim returns 403 (340ms)
+(node:19364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2660) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:2660) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:2660) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19364) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:19364) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  51 [api] › tests\api\claims-service-authorization.api.spec.ts:38:11 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading the dashboard statistics (1.6s)
+  x  50 [api] › tests\api\claims-service-authorization.api.spec.ts:38:11 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading the list of all users (387ms)
+(node:23188) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19352) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19352) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:19352) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:23188) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:23188) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  53 [api] › tests\api\claims-service-authorization.api.spec.ts:47:9 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading another user's profile (53ms)
+(node:22780) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  52 [api] › tests\api\claims-service-authorization.api.spec.ts:58:9 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant cannot create a user with the ADMIN role (235ms)
+(node:19640) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:22780) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:22780) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:19640) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:19640) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 54 [api] › tests\api\claims-service-authorization.api.spec.ts:73:7 › claims-service authorization (called directly with a bearer token) › a request without a token is rejected (882ms)
+  x  56 [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/env is denied (224ms)
+  ok 55 [api] › tests\api\operational-exposure.api.spec.ts:20:9 › actuator endpoints are not exposed to anonymous callers › claims-service health endpoint is public (control) (528ms)
+  x  57 [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/mappings is denied (184ms)
+(node:5308) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20200) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:20200) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:20200) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:5308) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:5308) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  58 [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/loggers/ROOT is denied (202ms)
+  x  59 [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/beans is denied (322ms)
+(node:21984) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14480) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:21984) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:21984) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14480) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:14480) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  61 [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/env is denied (1.8s)
+  ok 60 [api] › tests\api\operational-exposure.api.spec.ts:20:9 › actuator endpoints are not exposed to anonymous callers › bff-service health endpoint is public (control) (1.9s)
+  x  62 [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/mappings is denied (208ms)
+(node:14072) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:14072) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:7224) [DEP0205] DeprecationWarning: `module.register()` is deprecated. Use `module.registerHooks()` instead.
+(node:14072) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7224) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  63 [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/loggers/ROOT is denied (305ms)
+  x  64 [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/beans is denied (366ms)
+
+
+  1) [api] › tests\api\claim-ownership-under-load.api.spec.ts:39:7 › claim ownership when two users submit at the same time › every claim is stored under the user who submitted it 
+
+    Error: 3 of 100 claims stored under the wrong owner
+
+    [2mexpect([22m[31mreceived[39m[2m).[22mtoHaveLength[2m([22m[32mexpected[39m[2m)[22m
+
+    Expected length: [32m0[39m
+    Received length: [31m3[39m
+    Received array:  [31m[{"by": {"context": {"_guid": "request-context@45a70c8e6bb53ddac1c476c15a6b9933", "_type": "APIRequestContext"}, "userId": "b712e549-ffbb-427d-9fb3-c8e99908be71"}, "claim": {"claimAmount": 250, "claimId": "c5f08739-dbd3-48c9-993a-1430066a7d75", "createdAt": "2026-11-25T01:10:11.500698084Z", "description": "QA-AUTO f5ddabda-ed81-4107-ba8a-7e8f4cf2182e", "incidentDate": "2026-11-24", "incidentLocation": "1 Test Street, Singapore", "status": "SUBMITTED", "updatedAt": "2026-11-25T01:10:11.500698084Z", "userId": "9b87efb9-f77b-44d4-b878-4854c633f432"}}, {"by": {"context": {"_guid": "request-context@a4f2e20cfe9553e14516699def18110e", "_type": "APIRequestContext"}, "userId": "9b87efb9-f77b-44d4-b878-4854c633f432"}, "claim": {"claimAmount": 250, "claimId": "555d47da-ba10-4617-a80c-43cc72564d2f", "createdAt": "2026-11-25T01:10:10.971484652Z", "description": "QA-AUTO a1c2f167-809f-47cc-a2ba-aa3faf1fcf75", "incidentDate": "2026-11-24", "incidentLocation": "1 Test Street, Singapore", "status": "SUBMITTED", "updatedAt": "2026-11-25T01:10:10.971484652Z", "userId": "b712e549-ffbb-427d-9fb3-c8e99908be71"}}, {"by": {"context": {"_guid": "request-context@a4f2e20cfe9553e14516699def18110e", "_type": "APIRequestContext"}, "userId": "9b87efb9-f77b-44d4-b878-4854c633f432"}, "claim": {"claimAmount": 250, "claimId": "3d279891-5c83-458e-9f87-69bf4ea46542", "createdAt": "2026-11-25T01:10:11.217796529Z", "description": "QA-AUTO d5015267-3423-4294-bd39-7f4061f45059", "incidentDate": "2026-11-24", "incidentLocation": "1 Test Street, Singapore", "status": "SUBMITTED", "updatedAt": "2026-11-25T01:10:11.217796529Z", "userId": "b712e549-ffbb-427d-9fb3-c8e99908be71"}}][39m
+
+      50 |       misattributed,
+      51 |       `${misattributed.length} of ${submissions.length} claims stored under the wrong owner`,
+    > 52 |     ).toHaveLength(0);
+         |       ^
+      53 |   });
+      54 | });
+      55 |
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-ownership-under-load.api.spec.ts:52:7
+
+  2) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › SUBMITTED -> SUBMITTED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  3) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › SUBMITTED -> APPROVED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  4) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › SUBMITTED -> CLOSED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  5) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › UNDER_REVIEW -> UNDER_REVIEW 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  6) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › UNDER_REVIEW -> CLOSED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  7) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> SUBMITTED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  8) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> UNDER_REVIEW 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  9) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> APPROVED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  10) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> REJECTED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  11) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> SUBMITTED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  12) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> UNDER_REVIEW 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  13) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> APPROVED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  14) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> REJECTED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  15) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> SUBMITTED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  16) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> UNDER_REVIEW 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  17) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> APPROVED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  18) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> REJECTED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  19) [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> CLOSED 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      72 |         const response = await adminBff.patch(ENDPOINTS.adminClaimStatus(claim.claimId), { newStatus: to });
+      73 |
+    > 74 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      75 |       });
+      76 |     }
+      77 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-status-lifecycle.api.spec.ts:74:50
+
+  20) [api] › tests\api\claim-validation-and-errors.api.spec.ts:39:11 › claim submission through the BFF › invalid input must be a client error, not a server error › rejects an incident date in the future 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      42 |         const response = await claimantBff.post(ENDPOINTS.claims, buildClaimRequest(overrides));
+      43 |
+    > 44 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      45 |       });
+      46 |     }
+      47 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-validation-and-errors.api.spec.ts:44:50
+
+  21) [api] › tests\api\claim-validation-and-errors.api.spec.ts:39:11 › claim submission through the BFF › invalid input must be a client error, not a server error › rejects a description that is only padding around a few characters 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32mtrue[39m
+    Received: [31mfalse[39m
+
+      42 |         const response = await claimantBff.post(ENDPOINTS.claims, buildClaimRequest(overrides));
+      43 |
+    > 44 |         expect(isClientError(response.status())).toBe(true);
+         |                                                  ^
+      45 |       });
+      46 |     }
+      47 |   });
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-validation-and-errors.api.spec.ts:44:50
+
+  22) [api] › tests\api\claim-validation-and-errors.api.spec.ts:59:7 › reading a claim through the BFF › an unknown claim id returns 404 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32m404[39m
+    Received: [31m500[39m
+
+      62 |     const response = await claimantBff.get(ENDPOINTS.claim(randomUUID()));
+      63 |
+    > 64 |     expect(response.status()).toBe(HTTP.NOT_FOUND);
+         |                               ^
+      65 |   });
+      66 |
+      67 |   test("another user's claim returns 403", async ({ claimantBff, adminBff }) => {
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-validation-and-errors.api.spec.ts:64:31
+
+  23) [api] › tests\api\claim-validation-and-errors.api.spec.ts:67:7 › reading a claim through the BFF › another user's claim returns 403 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32m403[39m
+    Received: [31m500[39m
+
+      71 |     const response = await adminBff.get(ENDPOINTS.claim(claim.claimId));
+      72 |
+    > 73 |     expect(response.status()).toBe(HTTP.FORBIDDEN);
+         |                               ^
+      74 |   });
+      75 | });
+      76 |
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claim-validation-and-errors.api.spec.ts:73:31
+
+  24) [api] › tests\api\claims-service-authorization.api.spec.ts:38:11 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading the list of all claims 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32m403[39m
+    Received: [31m200[39m
+
+      41 |         const response = await claimantOnClaimsService.get(path);
+      42 |
+    > 43 |         expect(response.status()).toBe(HTTP.FORBIDDEN);
+         |                                   ^
+      44 |       });
+      45 |     }
+      46 |
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claims-service-authorization.api.spec.ts:43:35
+
+  25) [api] › tests\api\claims-service-authorization.api.spec.ts:38:11 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading the dashboard statistics 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32m403[39m
+    Received: [31m200[39m
+
+      41 |         const response = await claimantOnClaimsService.get(path);
+      42 |
+    > 43 |         expect(response.status()).toBe(HTTP.FORBIDDEN);
+         |                                   ^
+      44 |       });
+      45 |     }
+      46 |
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claims-service-authorization.api.spec.ts:43:35
+
+  26) [api] › tests\api\claims-service-authorization.api.spec.ts:38:11 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading the list of all users 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32m403[39m
+    Received: [31m200[39m
+
+      41 |         const response = await claimantOnClaimsService.get(path);
+      42 |
+    > 43 |         expect(response.status()).toBe(HTTP.FORBIDDEN);
+         |                                   ^
+      44 |       });
+      45 |     }
+      46 |
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claims-service-authorization.api.spec.ts:43:35
+
+  27) [api] › tests\api\claims-service-authorization.api.spec.ts:47:9 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading another user's profile 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32m403[39m
+    Received: [31m200[39m
+
+      53 |       const response = await claimantOnClaimsService.get(ENDPOINTS.user(adminBff.userId));
+      54 |
+    > 55 |       expect(response.status()).toBe(HTTP.FORBIDDEN);
+         |                                 ^
+      56 |     });
+      57 |
+      58 |     test('claimant cannot create a user with the ADMIN role', async ({ claimantOnClaimsService }) => {
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claims-service-authorization.api.spec.ts:55:33
+
+  28) [api] › tests\api\claims-service-authorization.api.spec.ts:58:9 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant cannot create a user with the ADMIN role 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoBe[2m([22m[32mexpected[39m[2m) // Object.is equality[22m
+
+    Expected: [32m403[39m
+    Received: [31m201[39m
+
+      67 |       const response = await claimantOnClaimsService.post(ENDPOINTS.users, attemptedUser);
+      68 |
+    > 69 |       expect(response.status()).toBe(HTTP.FORBIDDEN);
+         |                                 ^
+      70 |     });
+      71 |   });
+      72 |
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\claims-service-authorization.api.spec.ts:69:33
+
+  29) [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/env is denied 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected value: [32m200[39m
+    Received array: [31m[401, 403, 404][39m
+
+      34 |         const response = await anonymous.get(`/actuator/${endpoint}`);
+      35 |
+    > 36 |         expect(DENIED_STATUSES).toContain(response.status());
+         |                                 ^
+      37 |         await anonymous.dispose();
+      38 |       });
+      39 |     }
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\operational-exposure.api.spec.ts:36:33
+
+  30) [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/beans is denied 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected value: [32m200[39m
+    Received array: [31m[401, 403, 404][39m
+
+      34 |         const response = await anonymous.get(`/actuator/${endpoint}`);
+      35 |
+    > 36 |         expect(DENIED_STATUSES).toContain(response.status());
+         |                                 ^
+      37 |         await anonymous.dispose();
+      38 |       });
+      39 |     }
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\operational-exposure.api.spec.ts:36:33
+
+  31) [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/mappings is denied 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected value: [32m200[39m
+    Received array: [31m[401, 403, 404][39m
+
+      34 |         const response = await anonymous.get(`/actuator/${endpoint}`);
+      35 |
+    > 36 |         expect(DENIED_STATUSES).toContain(response.status());
+         |                                 ^
+      37 |         await anonymous.dispose();
+      38 |       });
+      39 |     }
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\operational-exposure.api.spec.ts:36:33
+
+  32) [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/loggers/ROOT is denied 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected value: [32m200[39m
+    Received array: [31m[401, 403, 404][39m
+
+      34 |         const response = await anonymous.get(`/actuator/${endpoint}`);
+      35 |
+    > 36 |         expect(DENIED_STATUSES).toContain(response.status());
+         |                                 ^
+      37 |         await anonymous.dispose();
+      38 |       });
+      39 |     }
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\operational-exposure.api.spec.ts:36:33
+
+  33) [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/env is denied 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected value: [32m200[39m
+    Received array: [31m[401, 403, 404][39m
+
+      34 |         const response = await anonymous.get(`/actuator/${endpoint}`);
+      35 |
+    > 36 |         expect(DENIED_STATUSES).toContain(response.status());
+         |                                 ^
+      37 |         await anonymous.dispose();
+      38 |       });
+      39 |     }
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\operational-exposure.api.spec.ts:36:33
+
+  34) [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/beans is denied 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected value: [32m200[39m
+    Received array: [31m[401, 403, 404][39m
+
+      34 |         const response = await anonymous.get(`/actuator/${endpoint}`);
+      35 |
+    > 36 |         expect(DENIED_STATUSES).toContain(response.status());
+         |                                 ^
+      37 |         await anonymous.dispose();
+      38 |       });
+      39 |     }
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\operational-exposure.api.spec.ts:36:33
+
+  35) [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/mappings is denied 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected value: [32m200[39m
+    Received array: [31m[401, 403, 404][39m
+
+      34 |         const response = await anonymous.get(`/actuator/${endpoint}`);
+      35 |
+    > 36 |         expect(DENIED_STATUSES).toContain(response.status());
+         |                                 ^
+      37 |         await anonymous.dispose();
+      38 |       });
+      39 |     }
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\operational-exposure.api.spec.ts:36:33
+
+  36) [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/loggers/ROOT is denied 
+
+    Error: [2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+    Expected value: [32m200[39m
+    Received array: [31m[401, 403, 404][39m
+
+      34 |         const response = await anonymous.get(`/actuator/${endpoint}`);
+      35 |
+    > 36 |         expect(DENIED_STATUSES).toContain(response.status());
+         |                                 ^
+      37 |         await anonymous.dispose();
+      38 |       });
+      39 |     }
+        at C:\Users\Archit\Downloads\Assignment\demo-app-qa-main\code\demo-app-ui\tests\api\operational-exposure.api.spec.ts:36:33
+
+  36 failed
+    [api] › tests\api\claim-ownership-under-load.api.spec.ts:39:7 › claim ownership when two users submit at the same time › every claim is stored under the user who submitted it 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › SUBMITTED -> SUBMITTED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › SUBMITTED -> APPROVED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › SUBMITTED -> CLOSED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › UNDER_REVIEW -> UNDER_REVIEW 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › UNDER_REVIEW -> CLOSED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> SUBMITTED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> UNDER_REVIEW 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> APPROVED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › APPROVED -> REJECTED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> SUBMITTED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> UNDER_REVIEW 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> APPROVED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › REJECTED -> REJECTED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> SUBMITTED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> UNDER_REVIEW 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> APPROVED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> REJECTED 
+    [api] › tests\api\claim-status-lifecycle.api.spec.ts:67:11 › claim status lifecycle (admin, through the BFF) › forbidden transitions are refused with a client error › CLOSED -> CLOSED 
+    [api] › tests\api\claim-validation-and-errors.api.spec.ts:39:11 › claim submission through the BFF › invalid input must be a client error, not a server error › rejects an incident date in the future 
+    [api] › tests\api\claim-validation-and-errors.api.spec.ts:39:11 › claim submission through the BFF › invalid input must be a client error, not a server error › rejects a description that is only padding around a few characters 
+    [api] › tests\api\claim-validation-and-errors.api.spec.ts:59:7 › reading a claim through the BFF › an unknown claim id returns 404 
+    [api] › tests\api\claim-validation-and-errors.api.spec.ts:67:7 › reading a claim through the BFF › another user's claim returns 403 
+    [api] › tests\api\claims-service-authorization.api.spec.ts:38:11 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading the list of all claims 
+    [api] › tests\api\claims-service-authorization.api.spec.ts:38:11 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading the dashboard statistics 
+    [api] › tests\api\claims-service-authorization.api.spec.ts:38:11 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading the list of all users 
+    [api] › tests\api\claims-service-authorization.api.spec.ts:47:9 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant is forbidden from reading another user's profile 
+    [api] › tests\api\claims-service-authorization.api.spec.ts:58:9 › claims-service authorization (called directly with a bearer token) › a claimant token must not reach admin functions › claimant cannot create a user with the ADMIN role 
+    [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/env is denied 
+    [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/beans is denied 
+    [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/mappings is denied 
+    [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › claims-service /actuator/loggers/ROOT is denied 
+    [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/env is denied 
+    [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/beans is denied 
+    [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/mappings is denied 
+    [api] › tests\api\operational-exposure.api.spec.ts:30:11 › actuator endpoints are not exposed to anonymous callers › bff-service /actuator/loggers/ROOT is denied 
+  28 passed (2.6m)
